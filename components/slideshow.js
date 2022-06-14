@@ -1,11 +1,12 @@
-function slideshow(img,h1,p){
-	return `
-	<img src=${img} alt="">
-  <div> 
-   <h1>${h1}</h1>
-   <p>${p}</p>
-   <button>show now</button>
-   `
+function slideshow(img, head, p) {
+  return `
+    <img src=${img} alt="">
+    <div> 
+      <p id='heads'>${head}</p>
+      <p id='ps'>${p}</p>
+      <button>show now</button>
+    </div>
+  `;
 }
 
 export default slideshow;
