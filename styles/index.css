@@ -1,0 +1,49 @@
+* {
+   margin: 0;
+   padding: 0;
+}
+
+body::-webkit-scrollbar {
+   display: none;
+}
+
+#slideshow {
+   position: relative;
+   height: 640px;
+   line-height: 1;
+   font-weight: bold;
+   font-family: "Zurich Extended", sans-serif;
+}
+
+#slideshow>div {
+   width: 45%;
+}
+
+#heads {
+   font-size: 55px;
+   font-weight: 800;
+}
+
+#ps {
+   margin: 25px 0;
+}
+
+#slideshow>img {
+   width: 100%;
+}
+
+#slideshow>div {
+   position: absolute;
+   top: 40%;
+   left: 7%;
+   color: white;
+   /* border: 2px solid red; */
+}
+
+#toppingz {
+   width: 90%;
+   position: relative;
+   border: 1px solid red;
+   margin: 30px auto;
+   text-align: center;
+}
