@@ -1,0 +1,37 @@
+#navbar{
+    margin-bottom: 20px;
+}
+#sign{
+    height: auto;
+    width: 40%;
+    margin: auto;
+    box-sizing: border-box;
+    padding: 40px;
+}
+input{
+    width: 100%;
+    margin-bottom: 20px;
+    height: 40px;
+    border-radius: 20px;
+    border: 1px solid lightgray;
+    padding-left: 10px;
+}
+h2{
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.grey{
+    color: grey;
+    text-align: center;
+}
+#submit{
+    background-color: blue;
+    color: white;
+    border: 0;
+    font-weight: bold;
+    cursor: pointer;
+    margin-bottom: 0px;
+}
+span>a{
+    color: grey;
+}
