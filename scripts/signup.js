@@ -31,5 +31,7 @@ function saveUserData(){
         form.last_name.value=""; 
         form.email.value="";
         form.password.value="";
+
+        window.location.href="login.html";
     }
 }
