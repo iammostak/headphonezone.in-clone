@@ -68,7 +68,7 @@ button:hover {
    font-family: "Zurich Extended", sans-serif;
    font-size: 28px;
    font-weight: 800;
-   letter-spacing: 1;
+   letter-spacing: 1px;
    line-height: 30px;
    margin: 70px 0 40px 0;
    color: rgb(74, 74, 74);
@@ -341,12 +341,12 @@ button:hover {
 }
 
 #brandz {
-   height: 600px;
+   height: 640px;
    margin: 0 0 70px 0;
    background-color: rgb(230, 230, 230);
    text-align: center;
    color: rgb(74, 74, 74);
-   padding: 70px;
+   padding: 60px;
 }
 
 #brandz>div>p:first-of-type {
@@ -360,6 +360,14 @@ button:hover {
    font-size: 30px;
    font-weight: 800;
    font-family: 'Zurich Extended', sans-serif;
+}
+
+#logoz {
+   height: 57%;
+   display: grid;
+   grid-template-columns: repeat(8, 1fr);
+   gap: 20px;
+   margin: 44px 0;
 }
 
 #container_s1 {
@@ -380,6 +388,7 @@ button:hover {
 
 #card_s>p:first-of-type {
    font-weight: 800;
+   letter-spacing: 1px;
 }
 
 #card_s>h1 {

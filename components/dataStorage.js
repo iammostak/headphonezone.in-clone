@@ -380,4 +380,4 @@ let unboxed = () => { return unboxedArr }
 
 let logo = () => { return logoArr }
 
-export { deals, trending, newLaunches, wfh, unboxed };
+export { deals, trending, newLaunches, wfh, unboxed, logo };
