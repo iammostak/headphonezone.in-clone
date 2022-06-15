@@ -4,7 +4,7 @@ function slideshow(img, head, p) {
     <div> 
       <p id='heads'>${head}</p>
       <p id='ps'>${p}</p>
-      <button>show now</button>
+      <button>SHOP NOW</button>
     </div>
   `;
 }
