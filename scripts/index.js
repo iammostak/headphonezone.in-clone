@@ -1,4 +1,5 @@
 import slideshow from "../components/slideshow.js";
+import { deals, trending, newLaunches, wfh, unboxed } from "../components/dataStorage.js";
 
 var slideshow_content = [
    { img: "https://cdn.shopify.com/s/files/1/0153/8863/files/Chu_HomepageBanner_Desktop_2000x.jpg?v=1654925610", h: "DON'T CHU WISH YOUR IEM WAS HOT LIKE ME", p: "MOONDROP CHU IS BACK" },
@@ -24,3 +25,106 @@ setTimeout(() => {
 
    }, 3000);
 }, 3000);
+
+// chart part -------------------------------------------------------->
+
+let contentz = document.getElementById('contentz');
+
+let dealsz = document.getElementById('dealsz');
+let trendingz = document.getElementById('trendingz');
+let newLaunchesz = document.getElementById('newLaunchesz');
+let wfhz = document.getElementById('wfhz');
+let unboxedz = document.getElementById('unboxedz');
+
+window.onclick = (event) => {
+   if (event.target != dealsz) dealsz.style.color = 'gray';
+   if (event.target != trendingz) trendingz.style.color = 'gray';
+   if (event.target != newLaunchesz) newLaunchesz.style.color = 'gray';
+   if (event.target != wfhz) wfhz.style.color = 'gray';
+   if (event.target != unboxedz) unboxedz.style.color = 'gray';
+}
+
+
+dealsz.addEventListener('click', () => {
+   dealsz.style.color = 'rgb(66, 66, 66)';
+   appendChart(deals());
+});
+
+trendingz.addEventListener('click', () => {
+   trendingz.style.color = 'rgb(66, 66, 66)';
+   appendChart(trending());
+});
+
+newLaunchesz.addEventListener('click', () => {
+   newLaunchesz.style.color = 'rgb(66, 66, 66)';
+   appendChart(newLaunches());
+});
+
+wfhz.addEventListener('click', () => {
+   wfhz.style.color = 'rgb(66, 66, 66)';
+   appendChart(wfh());
+});
+
+unboxedz.addEventListener('click', () => {
+   unboxedz.style.color = 'rgb(66, 66, 66)';
+   appendChart(unboxed());
+});
+
+let appendChart = (data) => {
+
+   contentz.innerHTML = null;
+
+   data.forEach((el) => {
+
+      let card = document.createElement('div');
+      card.setAttribute('class', 'cardz');
+
+      let img = document.createElement('img');
+      img.src = el.img;
+
+      let title = document.createElement('p');
+      title.innerText = el.title;
+
+      let about = document.createElement('p');
+      about.innerText = el.about;
+
+      let price = document.createElement('div');
+      price.setAttribute('class', 'pricez');
+
+      let newPrice = document.createElement('span');
+      newPrice.innerText = el.newPrice;
+
+      let oldPrice = document.createElement('span');
+      oldPrice.innerText = el.oldPrice;
+
+      price.append(newPrice, oldPrice);
+
+      let rating = document.createElement('div');
+      rating.setAttribute('class', 'ratingz');
+
+      let star1 = document.createElement('i');
+      star1.setAttribute('class', 'fa-solid fa-star');
+
+      let star2 = document.createElement('i');
+      star2.setAttribute('class', 'fa-solid fa-star');
+
+      let star3 = document.createElement('i');
+      star3.setAttribute('class', 'fa-solid fa-star');
+
+      let star4 = document.createElement('i');
+      star4.setAttribute('class', 'fa-solid fa-star');
+
+      let star5 = document.createElement('i');
+      star5.setAttribute('class', 'fa-solid fa-star');
+
+      let review = document.createElement('span');
+      review.innerText = el.review;
+
+      rating.append(star1, star2, star3, star4, star5, review);
+
+      card.append(img, title, about, price, rating);
+      contentz.append(card);
+
+   });
+
+}; appendChart(deals());
