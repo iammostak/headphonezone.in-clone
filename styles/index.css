@@ -34,16 +34,110 @@ body::-webkit-scrollbar {
 
 #slideshow>div {
    position: absolute;
-   top: 40%;
+   top: 37%;
    left: 7%;
    color: white;
-   /* border: 2px solid red; */
+}
+
+button {
+   padding: 17px 30px;
+   font-family: Roboto, sans-serif;
+   font-size: 16px;
+   font-weight: bold;
+   border-radius: 30px;
+   border: none;
+   cursor: pointer;
 }
 
 #toppingz {
    width: 90%;
    position: relative;
-   border: 1px solid red;
    margin: 30px auto;
    text-align: center;
+   color: rgb(74, 74, 74);
+   font-family: Roboto, sans-serif;
+}
+#toppingz>button {
+   background-color: blue;
+   color: white;
+}
+#toppingz>button:hover {
+   background-color: rgb(0, 0, 207);
+}
+
+#headz {
+   font-size: 30px;
+   font-weight: 800;
+   margin-bottom: 15px;
+   font-family: "Zurich Extended", sans-serif;
+}
+
+#headingz button {
+   font-size: 14px;
+   font-weight: bold;
+   padding: 0.5%;
+   margin: 0.5%;
+   background-color: transparent;
+   border: none;
+   border-bottom: 2px solid;
+   color: gray;
+   cursor: pointer;
+}
+
+#contentz {
+   display: flex;
+   height: 400px;
+   overflow-x: scroll;
+   margin: 30px 0 10px 0;
+}
+
+#contentz::-webkit-scrollbar {
+   display: none;
+}
+
+.cardz {
+   width: 205px;
+   line-height: 1.7em;
+   color: rgb(66, 66, 66);
+   cursor: pointer;
+   padding: 1%;
+}
+
+.cardz>img {
+   width: 205px;
+}
+
+.cardz>p:first-of-type {
+   font-weight: bold;
+   letter-spacing: 0.1rem;
+   text-transform: uppercase;
+}
+
+.cardz>p:last-of-type {
+   font-size: 12px;
+   font-weight: bold;
+}
+
+.pricez>span:first-of-type {
+   color: blue;
+   font-weight: bold;
+   margin-right: 10px;
+}
+
+.pricez>span:last-of-type {
+   text-decoration: line-through;
+   color: gray;
+}
+
+.ratingz {
+   font-size: 11px;
+   color: black;
+}
+
+.ratingz>i {
+   color: gold;
+}
+
+.ratingz>span {
+   margin-left: 10px;
 }
