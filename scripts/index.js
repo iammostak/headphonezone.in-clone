@@ -13,17 +13,21 @@ document.getElementById("slideshow").innerHTML = slideshow(slideshow_content[0].
 
 let i = 1;
 
-setTimeout(() => {
-   setInterval(() => {
-      if (i == 4) i = 0;
+setInterval(() => {
 
-      var box = document.getElementById("slideshow");
-      box.innerHTML = null;
+   if (i == 5) i = 0;
 
-      box.innerHTML = slideshow(slideshow_content[i].img, slideshow_content[i].h, slideshow_content[i].p);
-      i++;
+   var box = document.getElementById("slideshow");
+   box.innerHTML = null;
 
-   }, 3000);
+   box.innerHTML = slideshow(slideshow_content[i].img, slideshow_content[i].h, slideshow_content[i].p);
+
+   let img = document.getElementById('slideimgs');
+
+   if (i == 2 || i == 4) img.style.transform = 'scaleX(-1)';
+
+   i++;
+
 }, 3000);
 
 // chart part -------------------------------------------------------->
@@ -115,7 +119,7 @@ let appendChart = (data) => {
       star4.setAttribute('class', 'fa-solid fa-star');
 
       let star5 = document.createElement('i');
-      star5.setAttribute('class', 'fa-solid fa-star');
+      star5.setAttribute('class', 'fa-solid fa-star-half-stroke');
 
       let review = document.createElement('span');
       review.innerText = el.review;

@@ -1,6 +1,7 @@
 * {
    margin: 0;
    padding: 0;
+   font-family: Roboto, sans-serif;
 }
 
 body::-webkit-scrollbar {
@@ -41,12 +42,18 @@ body::-webkit-scrollbar {
 
 button {
    padding: 17px 30px;
-   font-family: Roboto, sans-serif;
    font-size: 16px;
    font-weight: bold;
    border-radius: 30px;
    border: none;
    cursor: pointer;
+   letter-spacing: 0.7px;
+   background-color: white;
+   color: rgb(74, 74, 74);
+}
+
+button:hover {
+   background-color: rgb(230, 230, 230);
 }
 
 /* products icons styling */
@@ -54,14 +61,14 @@ button {
 #boxs1 {
    text-align: center;
    width: 85%;
-   margin: 10px auto;
+   margin: 10px auto 60px auto;
 }
 
 #boxs1>h1 {
    font-family: "Zurich Extended", sans-serif;
    font-size: 28px;
    font-weight: 800;
-   letter-spacing: -1;
+   letter-spacing: 1;
    line-height: 30px;
    margin: 70px 0 40px 0;
    color: rgb(74, 74, 74);
@@ -72,7 +79,6 @@ button {
    font-size: 14px;
    font-weight: 400;
    color: rgb(68, 68, 68);
-   font-family: Roboto sans-serif;
 }
 
 #product_icons {
@@ -93,28 +99,30 @@ button {
 
 .icon>p {
    font-size: 10px;
-   font-family: Roboto, sans-serif;
-   font-weight: 700;
+   font-weight: 800;
    color: gray;
 }
 
 .icon>img {
-   width: 100%;
-   height: 100px;
-   border-radius: 50%;
+   width: 70%;
+   border-radius: 20%;
 }
 
 .icon>img:hover {
    filter: sepia(100%);
 }
 
+#videoz>iframe {
+   width: 100%;
+   height: 700px;
+}
+
 #toppingz {
    width: 90%;
    position: relative;
-   margin: 40px auto;
+   margin: 70px auto;
    text-align: center;
    color: rgb(74, 74, 74);
-   font-family: Roboto, sans-serif;
 }
 
 #toppingz>button {
@@ -123,7 +131,7 @@ button {
 }
 
 #toppingz>button:hover {
-   background-color: rgb(0, 0, 207);
+   background-color: rgb(0, 0, 227);
 }
 
 #headz {
@@ -149,7 +157,7 @@ button {
    display: flex;
    height: 400px;
    overflow-x: scroll;
-   margin: 30px 0 10px 0;
+   margin: 30px 0 20px 0;
 }
 
 #contentz::-webkit-scrollbar {
@@ -170,7 +178,7 @@ button {
 
 .cardz>p:first-of-type {
    font-weight: bold;
-   letter-spacing: 0.1rem;
+   letter-spacing: 1px;
    text-transform: uppercase;
 }
 
@@ -201,4 +209,217 @@ button {
 
 .ratingz>span {
    margin-left: 10px;
+}
+
+#freshz {
+   text-align: center;
+   font-weight: bold;
+   color: rgb(74, 74, 74);
+   margin: 90px auto;
+}
+
+#freshz>p:first-of-type {
+   font-size: 12px;
+   margin: 20px auto;
+   letter-spacing: 1px;
+   font-weight: 800;
+}
+
+#freshz>p:last-of-type {
+   font-size: 30px;
+   font-weight: 800;
+   font-family: 'Zurich Extended', sans-serif;
+}
+
+#boxzdiv {
+   width: 94%;
+   margin: 40px auto;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   gap: 40px;
+}
+
+.boxz {
+   height: 450px;
+   width: 100%;
+   border-radius: 15px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   color: white;
+   filter: brightness(90%);
+   cursor: pointer;
+   background-position: center;
+}
+
+.boxz p:first-of-type {
+   font-size: 12px;
+   margin-bottom: 25px;
+   letter-spacing: 2px;
+}
+
+.boxz p {
+   font-weight: 800;
+   font-size: 30px;
+   letter-spacing: 1px;
+}
+
+.boxz:first-of-type {
+   background-image: url('https://cdn.shopify.com/s/files/1/0153/8863/files/64Audio-Duo_NewArrivalsBanner_fdc2eaeb-aa36-4b6a-9e26-d4982f226286_700x.jpg?v=1654680319');
+   background-size: cover;
+}
+
+.boxz:nth-of-type(2) {
+   background-image: url('https://cdn.shopify.com/s/files/1/0153/8863/files/Meze-ADVAR_NewArrivalsBanner_700x.jpg?v=1651755551');
+   background-size: cover;
+}
+
+.boxz:last-of-type {
+   background-image: url('https://cdn.shopify.com/s/files/1/0153/8863/files/Fiio_-_K5ProEss_NewArrivalsBanner_6bfbe703-7bbd-4711-8f9f-add743f9ba7a_700x.jpg?v=1651755230');
+   background-size: cover;
+}
+
+.boxz:hover {
+   background-size: 400px;
+}
+
+#finderz {
+   height: 640px;
+   margin-bottom: 70px;
+   display: flex;
+   position: relative;
+}
+
+#finderz>div:first-child {
+   width: 36%;
+   background-color: rgb(230, 230, 230);
+}
+
+#innerz {
+   position: absolute;
+   top: 13%;
+   left: 7%;
+   width: 84%;
+   display: flex;
+   gap: 70px;
+}
+
+#innerz>img {
+   width: 44%;
+   border-radius: 10px;
+}
+
+#welcomez {
+   margin: auto;
+}
+
+#welcomez>p {
+   font-size: 14px;
+   line-height: 1.7;
+   margin: 0 0 17px 0;
+}
+
+#welcomez>p:first-of-type {
+   font-size: 33px;
+   font-weight: 800;
+   font-family: 'Zurich Extended', sans-serif;
+   color: rgb(74, 74, 74);
+   line-height: 1;
+   letter-spacing: 1px;
+   margin: 0 0 27px 0;
+}
+
+#welcomez>button {
+   margin: 20px auto;
+   color: white;
+   background-color: blue;
+}
+
+#welcomez>button:hover {
+   background-color: rgb(0, 0, 227);
+}
+
+#brandz {
+   height: 600px;
+   margin: 0 0 70px 0;
+   background-color: rgb(230, 230, 230);
+   text-align: center;
+   color: rgb(74, 74, 74);
+   padding: 70px;
+}
+
+#brandz>div>p:first-of-type {
+   font-size: 12px;
+   margin: 20px auto;
+   letter-spacing: 1px;
+   font-weight: 800;
+}
+
+#brandz>div>p:last-of-type {
+   font-size: 30px;
+   font-weight: 800;
+   font-family: 'Zurich Extended', sans-serif;
+}
+
+#container_s1 {
+   box-sizing: border-box;
+   display: flex;
+   justify-content: space-between;
+   height: 640px;
+   color: rgb(74, 74, 74);
+   margin: 0 0 70px 0;
+
+}
+
+#card_s>p {
+   line-height: 24px;
+   font-size: 14px;
+   margin: 0 0 17px 0;
+}
+
+#card_s>p:first-of-type {
+   font-weight: 800;
+}
+
+#card_s>h1 {
+   line-height: 35px;
+   font-size: 33px;
+   font-weight: 800;
+   font-family: 'Zurich Extended', sans-serif;
+   color: rgb(74, 74, 74);
+   letter-spacing: 1px;
+   margin: 0 0 27px 0;
+}
+
+#container_s1>div:first-child {
+   position: relative;
+   width: 35%;
+   background-color: rgb(247, 218, 223);
+}
+
+#india {
+   position: absolute;
+   width: 107%;
+   left: 23%;
+   top: 11%;
+   border-radius: 10px;
+}
+
+#container_s1>div:last-child {
+   box-sizing: border-box;
+   width: 49%;
+   display: flex;
+   align-items: center;
+   padding: 0 7% 0 0;
+}
+
+#card_s>button {
+   margin: 20px auto;
+   background-color: rgb(146, 0, 255);
+   color: white;
+}
+
+#card_s>button:hover {
+   background-color: blueviolet;
 }
