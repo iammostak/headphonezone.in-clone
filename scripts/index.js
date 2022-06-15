@@ -1,5 +1,5 @@
 import slideshow from "../components/slideshow.js";
-import { deals, trending, newLaunches, wfh, unboxed } from "../components/dataStorage.js";
+import { deals, trending, newLaunches, wfh, unboxed, logo } from "../components/dataStorage.js";
 
 var slideshow_content = [
    { img: "https://cdn.shopify.com/s/files/1/0153/8863/files/Chu_HomepageBanner_Desktop_2000x.jpg?v=1654925610", h: "DON'T CHU WISH YOUR IEM WAS HOT LIKE ME", p: "MOONDROP CHU IS BACK" },
@@ -132,3 +132,24 @@ let appendChart = (data) => {
    });
 
 }; appendChart(deals());
+
+// brand logo's ---------------------------------------------------------------->
+
+let logoz = document.getElementById('logoz');
+
+let appendLogo = (data) => {
+
+   logoz.innerHTML = null;
+
+   data.forEach((el, index) => {
+      let logozCard = document.createElement('div');
+      logozCard.setAttribute('class', 'logozCard');
+
+      let img = document.createElement('img');
+      img.src = data[index];
+
+      logozCard.append(img);
+      logoz.append(logozCard);
+   });
+
+}; appendLogo(logo());
