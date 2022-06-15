@@ -370,6 +370,15 @@ button:hover {
    margin: 44px 0;
 }
 
+.logozCard {
+   cursor: pointer;
+   width: 100%;
+}
+
+.logozCard>img {
+   width: 100%;
+}
+
 #container_s1 {
    box-sizing: border-box;
    display: flex;
