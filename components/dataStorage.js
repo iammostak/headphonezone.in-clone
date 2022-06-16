@@ -374,6 +374,16 @@ let slideShowArr = [
    'https://cdn.shopify.com/s/files/1/0153/8863/files/HeadphoneZone-Beyer-DT990-Topping-L30_Desktop_2000x.jpg?v=1643105524'
 ];
 
+let slideshow_content = [
+   { img: "https://cdn.shopify.com/s/files/1/0153/8863/files/Chu_HomepageBanner_Desktop_2000x.jpg?v=1654925610", h: "DON'T CHU WISH YOUR IEM WAS HOT LIKE ME", p: "MOONDROP CHU IS BACK" },
+   { img: "https://cdn.shopify.com/s/files/1/0153/8863/files/Ananda_HomepageBanner_Desktop2_2000x.jpg?v=1654679048", h: "REINVIGORATED PLANAR BRILLIANCE", p: "HIFIMAN ANANDA STEALTH EDITION" },
+   { img: "https://cdn.shopify.com/s/files/1/0153/8863/files/Kublai_Khan_HomepageBanner_Desktop_2000x.jpg?v=1654167888", h: "ONE RULER TO RULE THEM ALL", p: "NOBLE AUDIO'S G.O.A.T KUBLAI KHAN" },
+   { img: "https://cdn.shopify.com/s/files/1/0153/8863/files/K9ProEss_HomepageBanner_Desktop_2000x.jpg?v=1654174152", h: "THE GORR OF AUDIOPHILE'S WORLD", p: "FIIO'S FLAGSHIP KILLER K9 PRO ESS" },
+   { img: "https://cdn.shopify.com/s/files/1/0153/8863/files/Unique-Melody-Mext_For_Desktop_2000x.jpg?v=1650529094", h: "BONE BREAKING BASS", p: "MEET UNIQUE MELODY'S BIG MEXT THING" }
+];
+
+let slideshows = () => { return slideshow_content }
+
 let deals = () => { return dealsArr }
 
 let trending = () => { return trendingArr }
@@ -388,4 +398,4 @@ let logo = () => { return logoArr }
 
 let slideShow = () => { return slideShowArr }
 
-export { deals, trending, newLaunches, wfh, unboxed, logo, slideShow };
+export { slideshows, deals, trending, newLaunches, wfh, unboxed, logo, slideShow };
