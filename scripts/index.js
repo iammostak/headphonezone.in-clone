@@ -146,13 +146,17 @@ let appendLogo = (data) => {
 let slideShowz = document.getElementById('slideShowz');
 
 let images = slideShow();
-let z = 1;
+let z = 0;
+let flag;
+
+if(z==0) flag = true;
 
 document.querySelector("#right_btn")
    .addEventListener("click", rightSlide);
 
 function rightSlide() {
 
+   if(flag) z = 1, flag = false;
    if (z == images.length) z = 0;
 
    let imgs = document.querySelector("#slideShowz>img");
@@ -163,20 +167,20 @@ function rightSlide() {
 
 }
 
-let s = 2;
-
 document.querySelector("#left_btn")
    .addEventListener("click", leftSlide);
 
 function leftSlide() {
 
-   if(s < 0) s = 2;
-   
+   z--;
+
+   if (z < 0) z = 2;
+
    let imgs = document.querySelector("#slideShowz>img");
-   imgs.src = images[s--];
-   
+   imgs.src = images[z];
+
    let count = document.getElementById("countz");
-   count.innerHTML = `${s+2} / 3`;
+   count.innerHTML = `${z + 1} / 3`;
 
 }
 
