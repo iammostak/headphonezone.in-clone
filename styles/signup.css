@@ -1,4 +1,7 @@
-#navbar{
+* {
+    margin: 0;
+    padding: 0;
+ }#navbar{
     margin-bottom: 20px;
 }
 #sign{
@@ -19,10 +22,12 @@ input{
 h2{
     text-align: center;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-bottom: 30px;
 }
 .grey{
     color: grey;
     text-align: center;
+    margin-bottom: 30px;
 }
 #submit{
     background-color: blue;
@@ -30,7 +35,7 @@ h2{
     border: 0;
     font-weight: bold;
     cursor: pointer;
-    margin-bottom: 0px;
+    margin-bottom: 20px;
 }
 span>a{
     color: grey;
