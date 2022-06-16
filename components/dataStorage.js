@@ -368,6 +368,12 @@ let logoArr = [
    'https://cdn.shopify.com/s/files/1/0153/8863/files/V-moda-Logo-2022.svg?v=1651666403'
 ];
 
+let slideShowArr = [
+   'https://cdn.shopify.com/s/files/1/0153/8863/files/DSC03503_2000x.jpg?v=1645189799',
+   'https://cdn.shopify.com/s/files/1/0153/8863/files/HeadphoneZone-HifimanHE400SE-HipDAC2-HeadphoneZoneCable_Desktop_2000x.jpg?v=1643108117',
+   'https://cdn.shopify.com/s/files/1/0153/8863/files/HeadphoneZone-Beyer-DT990-Topping-L30_Desktop_2000x.jpg?v=1643105524'
+];
+
 let deals = () => { return dealsArr }
 
 let trending = () => { return trendingArr }
@@ -380,4 +386,6 @@ let unboxed = () => { return unboxedArr }
 
 let logo = () => { return logoArr }
 
-export { deals, trending, newLaunches, wfh, unboxed, logo };
+let slideShow = () => { return slideShowArr }
+
+export { deals, trending, newLaunches, wfh, unboxed, logo, slideShow };

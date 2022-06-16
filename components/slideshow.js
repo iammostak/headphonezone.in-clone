@@ -9,4 +9,15 @@ function slideshow(img, head, p) {
   `;
 }
 
-export default slideshow;
+function slideshow_ii(i) {
+  return `
+    <div>SETUPS OF THE MONTH</div>
+    <div>
+      <div><i class="fa-solid fa-arrow-left"></i></div>
+      <div id="countz">${i} / 3</div>
+      <div><i class="fa-solid fa-arrow-right"></i></div>
+    </div>
+  `;
+}
+
+export { slideshow, slideshow_ii };
