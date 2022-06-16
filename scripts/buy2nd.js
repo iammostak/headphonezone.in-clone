@@ -44,7 +44,7 @@ function OTP(event){
        
     }
     else{
-       alert("We are sending a OTP(One Time Password) on Your Register Mobile Number.")
+       alert("We are sending a OTP(One Time Password) on Your Registered Mobile Number.")
        window.location.href="OTP.html"
        
         

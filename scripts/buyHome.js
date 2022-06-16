@@ -1,5 +1,5 @@
 document.querySelector(".submit-btn").addEventListener("click", myfuction)
-var arr1 = JSON.parse(localStorage.getItem("price")) || [];
+var arr1 = JSON.parse(localStorage.getItem("test_price")) || [];
 
 
 function myfuction() {
@@ -14,7 +14,7 @@ function myfuction() {
     arr1.push(data2)
    
    
-    localStorage.setItem("price", JSON.stringify(arr1))
+    localStorage.setItem("test_price", JSON.stringify(arr1))
 
     window.location.href="buy2nd.html";
    
