@@ -413,14 +413,14 @@ button:hover {
 #container_s1>div:first-child {
    position: relative;
    width: 35%;
-   background-color: rgb(247, 218, 223);
+   background-color: rgb(252, 228, 226);
 }
 
 #india {
    position: absolute;
    width: 107%;
    left: 23%;
-   top: 11%;
+   top: 12%;
    border-radius: 10px;
 }
 
