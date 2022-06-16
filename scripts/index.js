@@ -1,5 +1,5 @@
-import slideshow from "../components/slideshow.js";
-import { deals, trending, newLaunches, wfh, unboxed, logo } from "../components/dataStorage.js";
+import { slideshow, slideshow_ii } from "../components/slideshow.js";
+import { deals, trending, newLaunches, wfh, unboxed, logo, slideShow } from "../components/dataStorage.js";
 
 var slideshow_content = [
    { img: "https://cdn.shopify.com/s/files/1/0153/8863/files/Chu_HomepageBanner_Desktop_2000x.jpg?v=1654925610", h: "DON'T CHU WISH YOUR IEM WAS HOT LIKE ME", p: "MOONDROP CHU IS BACK" },
@@ -28,7 +28,7 @@ setInterval(() => {
 
    i++;
 
-}, 3000);
+}, 5000);
 
 // chart part -------------------------------------------------------->
 
@@ -153,3 +153,42 @@ let appendLogo = (data) => {
    });
 
 }; appendLogo(logo());
+
+// slideShow 2 -------------------------------------------------------------->
+
+let slideShowz = document.getElementById('slideShowz');
+
+let images = slideShow();
+let z = 0;
+
+let play = () => {
+
+   slideShowz.innerHTML = null;
+   let image = images[z++];
+
+   let img = document.createElement('img');
+   img.src = image;
+
+   let div = document.createElement('div');
+   div.innerHTML = slideshow_ii(z);
+
+   slideShowz.append(img, div);
+
+   setInterval(() => {
+
+      if (z === images.length) z = 0;
+
+      slideShowz.innerHTML = null;
+      image = images[z++];
+
+      img = document.createElement('img');
+      img.src = image;
+
+      div = document.createElement('div');
+      div.innerHTML = slideshow_ii(z);
+
+      slideShowz.append(img, div);
+
+   }, 5000);
+
+}; play();
