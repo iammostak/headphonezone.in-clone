@@ -163,6 +163,23 @@ function rightSlide() {
 
 }
 
+let s = 2;
+
+document.querySelector("#left_btn")
+   .addEventListener("click", leftSlide);
+
+function leftSlide() {
+
+   if(s < 0) s = 2;
+   
+   let imgs = document.querySelector("#slideShowz>img");
+   imgs.src = images[s--];
+   
+   let count = document.getElementById("countz");
+   count.innerHTML = `${s+2} / 3`;
+
+}
+
 /*
 let play = () => {
 
