@@ -42,7 +42,7 @@ body::-webkit-scrollbar {
 
 button {
    padding: 17px 30px;
-   font-size: 16px;
+   font-size: 14px;
    font-weight: bold;
    border-radius: 30px;
    border: none;
@@ -394,7 +394,7 @@ button:hover {
    bottom: 7%;
    left: 3%;
    font-weight: bold;
-   color:rgb(74, 74, 74)
+   color: rgb(74, 74, 74)
 }
 
 #slideShowz>div>div {
@@ -404,7 +404,7 @@ button:hover {
    justify-content: center;
 }
 
-#slideShowz>div>div:first-child{
+#slideShowz>div>div:first-child {
    border-bottom: 1px solid lightgray;
 }
 
@@ -488,4 +488,257 @@ button:hover {
 
 #card_s>button:hover {
    background-color: blueviolet;
+}
+
+#poas {
+   margin: 0 0 70px 0;
+}
+
+#pairz {
+   text-align: center;
+   background-color: rgb(230, 230, 230);
+   font-size: 26px;
+   font-family: 'Zurich Extended', sans-serif;
+   font-weight: 800;
+   letter-spacing: 1px;
+   color: rgb(74, 74, 74);
+   padding: 60px 50px;
+}
+
+#pairz i {
+   font-size: 100px;
+   color: lightgray;
+}
+
+#pairz>p:first-of-type {
+   margin-top: -50px;
+}
+
+#partnerz {
+   display: flex;
+   margin: 60px 30px 30px 30px;
+   align-items: center;
+   justify-content: space-between;
+}
+
+#partnerz>img {
+   width: 10%;
+   cursor: pointer;
+   filter: brightness(200%);
+}
+
+#ourz {
+   text-align: center;
+   background-color: rgb(214, 207, 249);
+   font-weight: bold;
+   letter-spacing: 1px;
+   color: rgb(74, 74, 74);
+   padding: 60px 0 50px 0;
+}
+
+#ourz>p {
+   font-size: 33px;
+   font-family: 'Zurich Extended', sans-serif;
+   font-weight: 800;
+   margin: 10px;
+}
+
+#ourz>div {
+   display: flex;
+   margin: 30px 0 20px 0;
+}
+
+#ourz>div>div {
+   width: 20%;
+   text-align: center;
+   cursor: pointer;
+}
+
+#ourz>div>div>p:first-of-type {
+   font-size: 22px;
+   font-weight: 800;
+   margin: 10px;
+}
+
+#ourz>div>div>p:last-of-type {
+   font-size: 12px;
+   margin: 20px;
+}
+
+#audioz {
+   background-color: rgb(68, 68, 68);
+   padding: 70px 100px;
+   display: flex;
+   gap: 140px;
+   align-items: center;
+}
+
+#joinz>p {
+   font-size: 14px;
+   line-height: 1.7;
+   margin: 0 0 17px 0;
+   color: white;
+}
+
+#joinz>p:first-of-type {
+   font-size: 33px;
+   font-weight: 800;
+   font-family: 'Zurich Extended', sans-serif;
+   line-height: 1;
+   letter-spacing: 1px;
+   margin: 0 0 27px 0;
+}
+
+#joinz>button {
+   margin: 20px auto;
+   background-color: rgb(254, 206, 0);
+}
+
+#joinz>button:hover {
+   background-color: rgb(234, 191, 1);
+}
+
+#subz {
+   height: 440px;
+   background-image: url('https://cdn.shopify.com/s/files/1/0153/8863/files/Headphone-Zone-Newsletter_2000x.jpg?v=1643375292');
+   background-position: center;
+   background-size: cover;
+   display: flex;
+   align-items: center;
+   color: rgb(74, 74, 74);
+}
+
+#subz>div {
+   width: 30%;
+   background-color: white;
+   margin-left: 100px;
+   padding: 40px;
+   border-radius: 20px;
+}
+
+#subz>div>p {
+   font-size: 14px;
+   margin: 0 0 30px 0;
+   line-height: 1.7;
+}
+
+#subz>div>p:first-of-type {
+   font-weight: bold;
+}
+
+#emailz {
+   width: 46%;
+   padding: 17px;
+   font-size: 14px;
+   border-radius: 30px;
+   letter-spacing: 0.7px;
+   color: rgb(74, 74, 74);
+   margin-right: 15px;
+   border: 1px solid lightgray;
+   outline: none;
+}
+
+#subz>div>button {
+   background-color: blue;
+   color: white;
+}
+
+#subz>div>button:hover {
+   background-color: rgb(0, 0, 227);
+}
+
+/* ------------------------------------------------- */
+
+#insta_connect>div:first-child {
+   text-align: center;
+   color: rgb(74, 74, 74);
+   letter-spacing: 1px;
+   margin: 100px 0 50px 0;
+}
+
+#insta_connect>div>p:first-of-type {
+   font-size: 30px;
+   font-weight: 800;
+   margin-bottom: 30px;
+   font-family: 'Zurich Extended', sans-serif;
+}
+
+#insta_connect>div>p:last-of-type {
+   font-size: 14px;
+}
+
+#container_s2 {
+   width: 95%;
+   margin: 40px auto 170px auto;
+   display: grid;
+   grid-template-columns: repeat(6, 1fr);
+   grid-template-rows: 190px 190px;
+   gap: 20px;
+   grid-template-areas: "b1 b2 b5 b5 b6 b7"
+      "b3 b4 b5 b5 b8 b9";
+}
+
+#container_s2>div {
+   position: relative;
+   cursor: pointer;
+}
+
+#container_s2>div>div {
+   position: absolute;
+   width: 100%;
+   height: 100%;
+   background: rgba(69, 69, 69, 0.499);
+   display: none;
+   top: 0;
+   box-sizing: border-box;
+   padding: 15px;
+   color: white;
+   font-size: 14px;
+   font-weight: bold;
+}
+
+#container_s2>div>div>p:first-of-type {
+   height: 90%;
+}
+
+#container_s2 img {
+   width: 100%;
+   height: 100%;
+   object-fit: cover;
+}
+
+#container_s2>div:nth-child(1) {
+   grid-area: b1;
+}
+
+#container_s2>div:nth-child(2) {
+   grid-area: b2;
+}
+
+#container_s2>div:nth-child(3) {
+   grid-area: b3;
+}
+
+#container_s2>div:nth-child(4) {
+   grid-area: b4;
+}
+
+#container_s2>div:nth-child(5) {
+   grid-area: b5;
+}
+
+#container_s2>div:nth-child(6) {
+   grid-area: b6;
+}
+
+#container_s2>div:nth-child(7) {
+   grid-area: b7;
+}
+
+#container_s2>div:nth-child(8) {
+   grid-area: b8;
+}
+
+#container_s2>div:nth-child(9) {
+   grid-area: b9;
 }
