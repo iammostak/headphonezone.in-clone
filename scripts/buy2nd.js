@@ -1,12 +1,13 @@
 document.querySelector(".submit-btn").addEventListener("click",OTP)
 var Data= JSON.parse(localStorage.getItem("price"))
 var box=document.querySelector("#plan")
+var t_price=localStorage.getItem('totalPrice')
 
 
 Display(box)
 function Display(){
    
-    box.value='amount to be updated here';
+    box.value='₹ '+t_price;
     // box.value='₹'+ 50000
     console.log(Data)
     
