@@ -5,8 +5,7 @@
 }
 
 #footerz {
-   height: 410px;
-   padding: 60px 40px;
+   padding: 60px 40px 20px 40px;
    color: rgb(74, 74, 74);
    font-size: 14px;
    background-color: rgb(249, 249, 249);
@@ -80,7 +79,7 @@
 #acceptz {
    width: 63%;
    display: flex;
-   margin: 30px auto;
+   margin: 27px auto;
    align-items: center;
    justify-content: space-between;
    color: gray;
@@ -97,7 +96,7 @@ span {
 
 #owendz {
    text-align: center;
-   line-height: 2;
+   line-height: 1.7;
    border-top: 1px solid lightgray;
    padding: 20px;
 }
