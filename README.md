@@ -37,7 +37,7 @@ We, a group of 6 members, have finished this project and have built a clone of a
 </p>
 
 
-## Glimpse of the project
+## Glimpses of our project
 # 1. Landing Page
 
 ![image](image link)
