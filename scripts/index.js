@@ -1,5 +1,6 @@
 import { slideshow, slideshow_ii } from "../components/slideshow.js";
 import { slideshows, deals, trending, newLaunches, wfh, unboxed, logo, slideShow } from "../components/dataStorage.js";
+import { footerz } from "../components/navbar.js"
 
 // ---------------------------------------------------------------------------------------------->
 
@@ -303,6 +304,10 @@ for (let i = 0; i < parents.length; i++) {
       childs[i].style.display = "none";
    });
 }
+
+// footer --------------------------------------------------------------------------->
+
+document.getElementById('footerz').innerHTML = footerz();
 
 // window.onclick ------------------------------------------------------------------>
 
