@@ -177,10 +177,19 @@
     /* border: 1px solid black; */
 }
 
+.smallBox .smalldiv {
+    width: 40%;
+    display: flex;
+    /* border: 1px solid black; */
+     margin: auto;
+    justify-content: space-evenly;
+    font-size: 14px;
+} 
 
 
-
-
+.smalldiv .rupeediv {
+    display: flex;
+}
 
 /* -------------------------------------------Page Changer---------------------------------------------------- */
 
