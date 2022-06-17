@@ -24,9 +24,10 @@
     border-radius: 10px;
   padding:20px;
   width:800px;
-  background: #fff;
+  /* color edit 1 line */
+  background: rgb(46, 45, 45);
   box-shadow: 0 5px 10px rgba(0,0,0,.1);
-  
+  color: whitesmoke;
 }
 
 .container form .row{

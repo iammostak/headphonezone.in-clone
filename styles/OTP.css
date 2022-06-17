@@ -6,11 +6,17 @@
     margin-bottom: -45px;
 
 }
+/* color edit 1 line*/
+.container>form{background-color: rgb(46, 45, 45);} 
 #input{
     height: 200px;
     text-align: center;
     width: 100%;
     font-size: 50px;
+    /* color edit 3 line*/
+    border-radius: 10px;
+    background-color: black;
+    color: whitesmoke;
 }
 #prem {
     width: 46.5%;
@@ -24,8 +30,10 @@
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     border-radius: 10px;
     border: 0px;
-    padding: 2%
-    
+    padding: 2%;
+    /* color edit 2 line*/
+    background-color: rgb(46, 45, 45);
+    color: whitesmoke;
     
 }
 h3{
