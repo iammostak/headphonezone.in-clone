@@ -149,14 +149,14 @@ let images = slideShow();
 let z = 0;
 let flag;
 
-if(z==0) flag = true;
+if (z == 0) flag = true;
 
 document.querySelector("#right_btn")
    .addEventListener("click", rightSlide);
 
 function rightSlide() {
 
-   if(flag) z = 1, flag = false;
+   if (flag) z = 1, flag = false;
    if (z == images.length) z = 0;
 
    let imgs = document.querySelector("#slideShowz>img");

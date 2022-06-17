@@ -164,6 +164,27 @@ button:hover {
    display: none;
 }
 
+#leftDivz, #rightDivz {
+   position: absolute;
+   border: 1.7px solid;
+   top: 51%;
+   padding: 14px 18px;
+   border-radius: 50%;
+   cursor: pointer;
+   color: white;
+   font-weight: 800;
+   background-color: blue;
+   border: 2px solid whitesmoke;
+}
+
+#leftDivz {
+   left: -3%;
+}
+
+#rightDivz {
+   right: -3%;
+}
+
 .cardz {
    width: 205px;
    line-height: 1.7em;
