@@ -9,7 +9,7 @@
     box-sizing: border-box;
     padding: 40px;
 }
-input{
+#mail, #passkey, #submit, #apasskey{
     height: 40px;
     width: 100%;
     margin-bottom: 30px;
