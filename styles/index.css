@@ -164,7 +164,8 @@ button:hover {
    display: none;
 }
 
-#leftDivz, #rightDivz {
+#leftDivz,
+#rightDivz {
    position: absolute;
    border: 1.7px solid;
    top: 47%;
