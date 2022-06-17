@@ -29,7 +29,6 @@ let input = document.querySelector("#searchBars");
 
 search.onclick = (event) => {
    searchs_div.style.display = "block";
-   window.style.filter = 'brightness(50%)';
 }
 
 // ---------------------------------------------------------------------------------------------->
