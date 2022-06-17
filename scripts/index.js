@@ -1,35 +1,36 @@
 import { slideshow, slideshow_ii } from "../components/slideshow.js";
 import { slideshows, deals, trending, newLaunches, wfh, unboxed, logo, slideShow } from "../components/dataStorage.js";
-import { footerz,navbars } from "../components/navbar.js"
-// ----------------------------------------------------------------------------------------->
-document.getElementById("navbars").innerHTML=navbars();
-let body=document.querySelector("html");
+import { footerz, navbars } from "../components/navbar.js"
 
-	let ref = document.querySelectorAll(".ref");
-	let childs1 = document.querySelectorAll(".dropdowns");
+// Navbar ----------------------------------------------------------------------------------------->
 
-	for (let i = 0; i < ref.length; i++) {
-		ref[i].addEventListener("mouseover", function () {
-			childs1[i].style.display = "flex";
-		})
+document.getElementById("navbars").innerHTML = navbars();
 
-		ref[i].addEventListener("mouseout", function () {
-			childs1[i].style.display = "none";
-		})
-	}
-	let search_div=document.querySelector("#searchs>div");
-	let search=document.querySelector("#searchs");
-	search.onclick=()=>{
-		search_div.style.display="block";
-		// body.style.filter="brightness(50%)";
-		search_div.style.filter="brightness(50%)";
-	}
-	window.onclick=(event)=>{
-		if(event.target!=search_div && event.target!=search) {
-			search_div.style.display="none";
-			body.style.filter="brightness(100%)";
-		}
-	}
+
+let ref = document.querySelectorAll(".ref");
+let childs1 = document.querySelectorAll(".dropdowns");
+
+for (let i = 0; i < ref.length; i++) {
+
+   ref[i].addEventListener("mouseover", function () {
+      if (i == 2 || i == 3) childs1[i].style.display = 'block';
+      else childs1[i].style.display = "flex";
+   });
+
+   ref[i].addEventListener("mouseout", function () {
+      childs1[i].style.display = "none";
+   });
+
+}
+
+let searchs_div = document.querySelector("#searchs>div");
+let search = document.querySelector("#searchs");
+let input = document.querySelector("#searchBars");
+
+search.onclick = (event) => {
+   searchs_div.style.display = "block";
+   window.style.filter = 'brightness(50%)';
+}
 
 // ---------------------------------------------------------------------------------------------->
 
@@ -214,40 +215,6 @@ function leftSlide() {
 
 }
 
-/*
-let play = () => {
-
-   slideShowz.innerHTML = null;
-   let image = images[z++];
-
-   let img = document.createElement('img');
-   img.src = image;
-
-   let div = document.createElement('div');
-   div.innerHTML = slideshow_ii(z);
-
-   slideShowz.append(img, div);
-
-   setInterval(() => {
-
-      if (z === images.length) z = 0;
-
-      slideShowz.innerHTML = null;
-      image = images[z++];
-
-      img = document.createElement('img');
-      img.src = image;
-
-      div = document.createElement('div');
-      div.innerHTML = slideshow_ii(z);
-
-      slideShowz.append(img, div);
-
-   }, 5000);
-
-}; play();
-*/
-
 // news partners --------------------------------------------------------->
 
 let piz = document.getElementById('piz');
@@ -361,6 +328,8 @@ document.getElementById('ytz')
 // window.onclick ------------------------------------------------------------------>
 
 window.onclick = (event) => {
+
+   if (event.target != searchs_div && event.target != search && event.target != input) searchs_div.style.display = "none";
    if (event.target != dealsz) dealsz.style.color = 'gray';
    if (event.target != trendingz) trendingz.style.color = 'gray';
    if (event.target != newLaunchesz) newLaunchesz.style.color = 'gray';
@@ -377,4 +346,5 @@ window.onclick = (event) => {
       piiz.innerText = 'Tired of the crappy ear buds that come with your';
       piiiz.innerText = 'phone? Headphone Zone shows you how to buy a';
    }
+
 };

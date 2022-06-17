@@ -79,255 +79,259 @@ function footerz() {
    `;
 }
 
-
-function navbars(){
+function navbars() {
    return `
-   <div id="nav">
-			<div id="nav_c1">
-				<img src="https://cdn.shopify.com/s/files/1/0153/8863/files/Headphone-Zone-Animated-Header_400x_b56ee274-b480-4d0f-91ae-4a16d148a93f.gif?v=1580537719"
-					alt="">
-			</div>
-			<div id="nav_c2">
-				<div class="ref">Categories
-					<div class="dropdowns">
-						<div>
-							<h2>BEGINNER</h2>
-							<p>Earphones</p>
-							<p>Headphones</p>
-							<p>portable Amp/DACS</p>
-							<p>Desktop Amp/DACS</p>
-							<p>Hi Res Players</p>
-
-						</div>
-						<div>
-							<h2>FLAGSHIP</h2>
-							<p>New Arrivals</p>
-							<p>Earphones</p>
-							<p>Headphones</p>
-							<p>Portable Amp/DACS</p>
-							<p>Desktop Amps/DACS</p>
-							<p>Hi Res-Players</p>
-						</div>
-						<div>
-							<h2>COLLECTIONS</h2>
-							<p>Work From Home</p>
-							<p>Gaming</p>
-							<p>Studio $ Professional</p>
-						</div>
-						<div>
-							<h2>WIRELESS</h2>
-							<p>True Wireless Earbuds</p>
-							<p>Wireless Headphones</p>
-							<p>Wireless Earphones</p>
-						</div>
-						<div>
-							<h2>ACCESSORIES</h2>
-							<p>Eartips</p>
-							<p>Earpads</p>
-							<p>Cases</p>
-							<p>Cables</p>
-							<p>Headphone Stands</p>
-							<p>Digital Cables</p>
-							<p>Interconnects</p>
-						</div>
-					</div>
-				</div>
-				<div class="ref">Brands
-					<div class="dropdowns">
-						<div>
-							<p>1Custom</p>
-							<p>64 Audio</p>
-							<p>Abyss</p>
-							<p>AIAIAI</p>
-							<p>AKG</p>
-							<p>ALO Audio</p>
-							<p>Astell&Kern</p>
-							<p>Audeze</p>
-							<p>Audio- Technica</p>
-							<p>AudioQuest</p>
-							<p>Aune Audio</p>
-							<p>Austrian Audio</p>
-							<p>Bang & Olufsen</p>
-							<p>Beyerdynamic</p>
-							<p></p>
-						</div>
-						<div>
-							<p>Bowers & Wilkins</p>
-							<p>BQEYZ</p>
-							<p>Burson Audio</p>
-							<p>Campfire Audio</p>
-							<p>Cayin</p>
-							<p>CCA</p>
-							<p>Chord Electronics</p>
-							<p>Comply</p>
-							<p>Dali</p>
-							<p>Dan Clark Audio</p>
-							<p>DarkVoice</p>
-							<p>ddHiFi</p>
-							<p>Dekoni Audio</p>
-							<p>Denafrips</p>
-							<p></p>
-						</div>
-						<div>
-							<p>EarMen</p>
-							<p>Edifier</p>
-							<p>Effect Audio</p>
-							<p>EIKON</p>
-							<p>EPOS</p>
-							<p>Etymotic</p>
-							<p>Fiio</p>
-							<p>Final Audio</p>
-							<p>Focal</p>
-							<p>Gold Planar</p>
-							<p>Grado</p>
-							<p>Gustard</p>
-							<p>Harmonic Dyne</p>
-							<p>Headgear Audio</p>
-							<p></p>
-						</div>
-						<div>
-							<p>HEDD Audio</p>
-							<p>HiBy</p>
-							<p>Hidizs</p>
-							<p>HiFiMAN</p>
-							<p>iBasso</p>
-							<p>iFi Audio</p>
-							<p>IKKO</p>
-							<p>Jabra</p>
-							<p>JAYS</p>
-							<p>JBL</p>
-							<p>JH Audio</p>
-							<p>JVC</p>
-							<p>Klipsch</p>
-							<p>KZ Acousics</p>
-							<p></p>
-						</div>
-						<div>
-							<p>Loto</p>
-							<p>Lypertek</p>
-							<p>Mangird</p>
-							<p>Marshall</p>
-							<p>Matrix Audio</p>
-							<p>MEE Audio</p>
-							<p>Meze Audio</p>
-							<p>Monoprice</p>
-							<p>Moondrop</p>
-							<p>Naim</p>
-							<p>Noble Audio</p>
-							<p>oBravo</p>
-							<p>RAAL-requisite</p>
-							<p>Razer</p>
-							<p></p>
-						</div>
-						<div>
-							<p>Schiit</p>
-							<p>Sennheiser</p>
-							<p>Shanling</p>
-							<p>Shure</p>
-							<p>Singxer</p>
-							<p>SMSL</p>
-							<p>Sonos</p>
-							<p>Sony</p>
-							<p>SoundMAGIC</p>
-							<p>SpinFit</p>
-							<p>STAX</p>
-							<p>Steven Slate Audio</p>
-							<p>Tanchjim</p>
-							<p>Temo Tec</p>
-							<p></p>
-						</div>
-						<div>
-							<p>TIN HiFi</p>
-							<p>Topping</p>
-							<p>Tripowin</p>
-							<p>Unique Melody</p>
-							<p>Venture Electronics</p>
-							<p>Violectric</p>
-							<p>Vision Ears</p>
-							<p>V-MODA</p>
-							<p>xDuoo</p>
-							<p>7HZ</p>
-						</div>
-					</div>
-				</div>
-				<div class="ref">Price
-					<div class="dropdowns">
-						<p>Best Headphones Under Rs. 1,000</p>
-						<p>Best Headphones Under Rs. 2,000</p>
-						<p>Best Headphones Under Rs. 3,000</p>
-						<p>Best Headphones Under Rs. 5,000</p>
-						<p>Best Headphones Under Rs. 10,000</p>
-						<p>Best Headphones Under Rs. 20,000</p>
-						<p>Best Headphones Under Rs. 30,000</p>
-
-					</div>
-				</div>
-				<div class="ref">Deals
-					<div class="dropdowns">
-						<p>Unboxed</p>
-						<p>Pre-Owned</p>
-						<p>Clearance</p>
-						<p>Demo Unit</p>
-						<p>Deals of the Month</p>
-					</div>
-				</div>
-				<div>Headphone Finder</div>
-				<div>Events</div>
-				<div class="ref">Info
-					<div class="dropdowns">
-						<div>
-							<img src="https://cdn.shopify.com/s/files/1/0153/8863/files/Headphone-Zone-10-Years_500x-1_295x.jpg?v=1643031208"
-								alt="">
-							<h2>10 YEARS OF HEADPHONE ZONE</h2>
-
-							<p>Read the Headphone Zone journey since 2011 as told by Raghav.</p>
-						</div>
-						<div>
-							<img src="https://cdn.shopify.com/s/files/1/0153/8863/files/Headphone-Zone-Club-Audiophile-Menu_500x-focal_256x256_c41abc2b-75a9-4aeb-b2cf-4f01ae7c1992_256x.webp?v=1650019007"
-								alt="">
-							<h2>IT PAYS TO BE AN AUDIOPHILE</h2>
-							<p>Enjoy Members-only rewards with our loyalty program</p>
-						</div>
-						<div>
-							<h2>ABOUT US</h2>
-							<p>Our Story</p>
-							<p>Our Values</p>
-							<p>Meet the Team</p>
-							<p>Customer Testimonials</p>
-							<p>Careers - We're Hiring!</p>
-							<p>Brands That Inspire Us</p>
-						</div>
-						<div>
-							<h2>GET IN TOUCH</h2>
-							<p>Contact the Team</p>
-							<p>Corporate Gifting</p>
-							<p>Partner With Us</p>
-						</div>
-						<div>
-							<h2>COMMUNITY</h2>
-							<p>Headphone Zone Merchandise</p>
-							<p>Trade-Up Program</p>
-						</div>
-					</div>
-				</div>
-				<div>Help Center</div>
-			</div>
-			<div id="nav_c3">
-				<div id="searchs">Search
-					<div>
-						<div id="search-div">
-							<input type="text" id="search-bar" placeholder="Search for a dish . . . ">
-							<i class="fa-solid fa-magnifying-glass"></i>
-						 </div>
-				   
-					</div>
-				</div>
-				<div>Login</div>
-				<div>Cart
-					<div id="added_items">0</div>
-				</div>
-
-			</div>
-		</div>`
+      <div id="nav">
+         <div id="nav_c1">
+            <img
+               src="https://cdn.shopify.com/s/files/1/0153/8863/files/Headphone-Zone-Animated-Header_400x_b56ee274-b480-4d0f-91ae-4a16d148a93f.gif?v=1580537719"
+               alt="">
+         </div>
+         <div id="nav_c2">
+            <div class="ref">Categories
+               <div class="dropdowns">
+                  <div>
+                     <h4>BEGINNER</h4>
+                     <p>Earphones</p>
+                     <p>Headphones</p>
+                     <p>portable Amp/DACS</p>
+                     <p>Desktop Amp/DACS</p>
+                     <p>Hi Res Players</p>
+                  </div>
+                  <div>
+                     <h4>FLAGSHIP</h4>
+                     <p>New Arrivals</p>
+                     <p>Earphones</p>
+                     <p>Headphones</p>
+                     <p>Portable Amp/DACS</p>
+                     <p>Desktop Amps/DACS</p>
+                     <p>Hi Res-Players</p>
+                  </div>
+                  <div>
+                     <h4>COLLECTIONS</h4>
+                     <p>Work From Home</p>
+                     <p>Gaming</p>
+                     <p>Studio $ Professional</p>
+                  </div>
+                  <div>
+                     <h4>WIRELESS</h4>
+                     <p>True Wireless Earbuds</p>
+                     <p>Wireless Headphones</p>
+                     <p>Wireless Earphones</p>
+                  </div>
+                  <div>
+                     <h4>ACCESSORIES</h4>
+                     <p>Eartips</p>
+                     <p>Earpads</p>
+                     <p>Cases</p>
+                     <p>Cables</p>
+                     <p>Headphone Stands</p>
+                     <p>Digital Cables</p>
+                     <p>Interconnects</p>
+                  </div>
+               </div>
+            </div>
+            <div class="ref">Brands
+               <div class="dropdowns">
+                  <div>
+                     <p>1Custom</p>
+                     <p>64 Audio</p>
+                     <p>Abyss</p>
+                     <p>AIAIAI</p>
+                     <p>AKG</p>
+                     <p>ALO Audio</p>
+                     <p>Astell&Kern</p>
+                     <p>Audeze</p>
+                     <p>Audio- Technica</p>
+                     <p>AudioQuest</p>
+                     <p>Aune Audio</p>
+                     <p>Austrian Audio</p>
+                     <p>Bang & Olufsen</p>
+                     <p>Beyerdynamic</p>
+                     <p></p>
+                  </div>
+                  <div>
+                     <p>Bowers & Wilkins</p>
+                     <p>BQEYZ</p>
+                     <p>Burson Audio</p>
+                     <p>Campfire Audio</p>
+                     <p>Cayin</p>
+                     <p>CCA</p>
+                     <p>Chord Electronics</p>
+                     <p>Comply</p>
+                     <p>Dali</p>
+                     <p>Dan Clark Audio</p>
+                     <p>DarkVoice</p>
+                     <p>ddHiFi</p>
+                     <p>Dekoni Audio</p>
+                     <p>Denafrips</p>
+                     <p></p>
+                  </div>
+                  <div>
+                     <p>EarMen</p>
+                     <p>Edifier</p>
+                     <p>Effect Audio</p>
+                     <p>EIKON</p>
+                     <p>EPOS</p>
+                     <p>Etymotic</p>
+                     <p>Fiio</p>
+                     <p>Final Audio</p>
+                     <p>Focal</p>
+                     <p>Gold Planar</p>
+                     <p>Grado</p>
+                     <p>Gustard</p>
+                     <p>Harmonic Dyne</p>
+                     <p>Headgear Audio</p>
+                     <p></p>
+                  </div>
+                  <div>
+                     <p>HEDD Audio</p>
+                     <p>HiBy</p>
+                     <p>Hidizs</p>
+                     <p>HiFiMAN</p>
+                     <p>iBasso</p>
+                     <p>iFi Audio</p>
+                     <p>IKKO</p>
+                     <p>Jabra</p>
+                     <p>JAYS</p>
+                     <p>JBL</p>
+                     <p>JH Audio</p>
+                     <p>JVC</p>
+                     <p>Klipsch</p>
+                     <p>KZ Acousics</p>
+                     <p></p>
+                  </div>
+                  <div>
+                     <p>Loto</p>
+                     <p>Lypertek</p>
+                     <p>Mangird</p>
+                     <p>Marshall</p>
+                     <p>Matrix Audio</p>
+                     <p>MEE Audio</p>
+                     <p>Meze Audio</p>
+                     <p>Monoprice</p>
+                     <p>Moondrop</p>
+                     <p>Naim</p>
+                     <p>Noble Audio</p>
+                     <p>oBravo</p>
+                     <p>RAAL-requisite</p>
+                     <p>Razer</p>
+                     <p></p>
+                  </div>
+                  <div>
+                     <p>Schiit</p>
+                     <p>Sennheiser</p>
+                     <p>Shanling</p>
+                     <p>Shure</p>
+                     <p>Singxer</p>
+                     <p>SMSL</p>
+                     <p>Sonos</p>
+                     <p>Sony</p>
+                     <p>SoundMAGIC</p>
+                     <p>SpinFit</p>
+                     <p>STAX</p>
+                     <p>Steven Slate Audio</p>
+                     <p>Tanchjim</p>
+                     <p>Temo Tec</p>
+                     <p></p>
+                  </div>
+                  <div>
+                     <p>TIN HiFi</p>
+                     <p>Topping</p>
+                     <p>Tripowin</p>
+                     <p>Unique Melody</p>
+                     <p>Venture Electronics</p>
+                     <p>Violectric</p>
+                     <p>Vision Ears</p>
+                     <p>V-MODA</p>
+                     <p>xDuoo</p>
+                     <p>7HZ</p>
+                  </div>
+               </div>
+            </div>
+            <div class="ref">Price
+               <div class="dropdowns sss">
+                  <p>Best Headphones Under Rs. 1,000</p>
+                  <p>Best Headphones Under Rs. 2,000</p>
+                  <p>Best Headphones Under Rs. 3,000</p>
+                  <p>Best Headphones Under Rs. 5,000</p>
+                  <p>Best Headphones Under Rs. 10,000</p>
+                  <p>Best Headphones Under Rs. 20,000</p>
+                  <p>Best Headphones Under Rs. 30,000</p>
+               </div>
+            </div>
+            <div class="ref">Deals
+               <div class="dropdowns sss">
+                  <p>Unboxed</p>
+                  <p>Pre-Owned</p>
+                  <p>Clearance</p>
+                  <p>Demo Unit</p>
+                  <p>Deals of the Month</p>
+               </div>
+            </div>
+            <div>Headphone Finder</div>
+            <div>Events</div>
+            <div class="ref">Info
+               <div class="dropdowns">
+                  <div class="infoimgs">
+                     <img
+                        src="https://cdn.shopify.com/s/files/1/0153/8863/files/Headphone-Zone-10-Years_500x-1_295x.jpg?v=1643031208"
+                        alt="">
+                     <h4>10 YEARS OF HEADPHONE ZONE</h4>
+                     <p>Read the Headphone Zone journey since 2011 as told by Raghav.</p>
+                  </div>
+                  <div class="infoimgs" id="infoimgss">
+                     <img
+                        src="https://cdn.shopify.com/s/files/1/0153/8863/files/Headphone-Zone-Club-Audiophile-Menu_500x-focal_256x256_c41abc2b-75a9-4aeb-b2cf-4f01ae7c1992_256x.webp?v=1650019007"
+                        alt="">
+                     <h4>IT PAYS TO BE AN AUDIOPHILE</h4>
+                     <p>Enjoy Members-only rewards with our loyalty program</p>
+                  </div>
+                  <div>
+                     <h4>ABOUT US</h4>
+                     <p>Our Story</p>
+                     <p>Our Values</p>
+                     <p>Meet the Team</p>
+                     <p>Customer Testimonials</p>
+                     <p>Careers - We're Hiring!</p>
+                     <p>Brands That Inspire Us</p>
+                  </div>
+                  <div>
+                     <h4>GET IN TOUCH</h4>
+                     <p>Contact the Team</p>
+                     <p>Corporate Gifting</p>
+                     <p>Partner With Us</p>
+                  </div>
+                  <div>
+                     <h4>COMMUNITY</h4>
+                     <p>Headphone Zone Merchandise</p>
+                     <p>Trade-Up Program</p>
+                  </div>
+               </div>
+            </div>
+            <div>Help Center</div>
+         </div>
+         <div id="nav_c3">
+            <div id="searchs">Search
+               <div>
+                  <div id="searchDivs">
+                     <i class="fa-solid fa-magnifying-glass"></i>
+                     <input type="text" id="searchBars" placeholder="What are you looking for?">
+                     <i class="fa-solid fa-circle-xmark"></i>
+                  </div>
+                  <div id="noResults">
+                     <p>No results could be found.</p>
+                     <button>NEW SEARCH</button>
+                  </div>
+               </div>
+            </div>
+            <div>Login</div>
+            <div>Cart
+               <div id="added_items">0</div>
+            </div>
+         </div>
+      </div>
+   `;
 }
-export {footerz ,navbars};
+
+export { footerz, navbars };
