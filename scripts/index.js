@@ -6,8 +6,12 @@ import { footerz, navbars } from "../components/navbar.js"
 
 let successz = document.querySelector('.successz');
 let smsg = document.querySelector('.successz>span');
+
 let errorz = document.querySelector('.errorz');
 let emsg = document.querySelector('.errorz>span');
+
+let warningz = document.querySelector('.warningz');
+let wmsg = document.querySelector('.warningz>span');
 
 // Navbar ----------------------------------------------------------------------------------------->
 
@@ -275,6 +279,15 @@ wire.addEventListener('click', () => {
    piiz.innerText = 'directly thereby eliminating the knowledge gap';
    piiiz.innerText = 'between the buyer and the product.';
 });
+
+// club joining ---------------------------------------------------------------->
+
+document.querySelector('#joinz>button')
+   .addEventListener('click', () => {
+      warningz.style.display = 'flex';
+      wmsg.innerText = 'You need to login first';
+      setTimeout(() => { warningz.style.display = 'none'; }, 4000);
+   });
 
 // newsletter ----------------------------------------------------------------------->
 
