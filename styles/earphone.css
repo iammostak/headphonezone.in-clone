@@ -193,13 +193,79 @@
 
 /* -------------------------------------------Page Changer---------------------------------------------------- */
 
+.pageChanger {
+    
+    width: 20%;
+    margin: auto;
+    margin-top: 40px;
+    display: flex;
+    border-radius: 25px;
+   
+}
 
+.pageChanger .options {
+    width:20%;
+    height: 45px;
+    border: 1px solid;
+    text-align: center;
+    /* border-radius: 15px; */
+   
 
+}
 
+.first {
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+}
 
+.last {
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
 
+/* ------------------------------------------------Details Css-------------------------------------- */
 
+hr {
+    width: 95%;
+    margin: auto;
+    margin-top: 45px;
+    color: grey;
+  }
 
+.detailsbox {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+}
 
+.detailsbox .div1 {
+  width: 75%;
+  font-size: 17px;
+}
 
+.detailsbox .div1 .shortinfo {
+    margin-bottom: 20px;
+    line-height: 25px;
+}
 
+.detailsbox .div1 .longinfo {
+    margin-bottom: 20px;
+    line-height: 25px;
+}
+
+.detailsbox .div2 {
+    width: 20%;
+    font-size: 18px;
+  }
+
+  .detailsbox .div2 h4 {
+    margin-bottom: 10px;
+  }
+
+  .detailsbox .div2 h5 {
+    color: rgb(104, 104, 104);
+    margin-bottom: 5px;
+    border-bottom: 0.5px solid;
+    width: 50%;
+    cursor: pointer;
+  }
