@@ -806,3 +806,35 @@ button:hover {
 #container_s2>div:nth-child(9) {
    grid-area: b9;
 }
+
+/* -----------------alert---------------- */
+
+.alert {
+   width: 26%;
+   position: sticky;
+   bottom: 76%;
+   z-index: 2;
+   gap: 20px;
+   justify-content: center;
+   align-items: center;
+   padding: 1.2% 3%;
+   font-size: 18px;
+   font-weight: 800;
+   color: white;
+   display: none;
+   border-top-right-radius: 30px;
+   border-bottom-right-radius: 30px;
+}
+
+.alert>i {
+   font-size: 33px;
+   font-weight: bold;
+}
+
+.successz {
+   background-color: green;
+}
+
+.errorz {
+   background-color: orangered;
+}

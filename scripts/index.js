@@ -2,6 +2,13 @@ import { slideshow, slideshow_ii } from "../components/slideshow.js";
 import { slideshows, deals, trending, newLaunches, wfh, unboxed, logo, slideShow } from "../components/dataStorage.js";
 import { footerz, navbars } from "../components/navbar.js"
 
+// alert div --------------------------------------------------------------->
+
+let successz = document.querySelector('.successz');
+let smsg = document.querySelector('.successz>span');
+let errorz = document.querySelector('.errorz');
+let emsg = document.querySelector('.errorz>span');
+
 // Navbar ----------------------------------------------------------------------------------------->
 
 document.getElementById("navbars").innerHTML = navbars();
@@ -277,10 +284,14 @@ document.getElementById('emailzbtn')
    .addEventListener('click', () => {
       if (emailz.value.includes('@')) {
          emailz.value = null;
-         alert('Hurry! you subscribe our Newsletter successfully');
+         successz.style.display = 'flex';
+         smsg.innerText = 'Subscription successful';
+         setTimeout(() => { successz.style.display = 'none'; }, 4000);
       } else {
          emailz.value = null;
-         alert('Please, enter your e-mail');
+         errorz.style.display = 'flex';
+         emsg.innerText = 'Please, enter your e-mail';
+         setTimeout(() => { errorz.style.display = 'none' }, 4000);
       }
    });
 
