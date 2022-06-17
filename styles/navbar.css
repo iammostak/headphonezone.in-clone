@@ -104,3 +104,84 @@ span {
 #owendz span {
    text-decoration: underline;
 }
+
+/* navbar by shakil ahmad.................. */
+body {
+   height: 800vh;
+   position: relative;
+   background-color: white;
+   
+}
+#navbars{
+   position:sticky;
+   z-index: 1;
+   top:0;
+   background-color: aliceblue;
+}
+#nav {
+   display: flex;
+   justify-content: space-around;
+   border: 1px red solid;
+   align-items: center;
+   position: relative;
+}
+
+#nav>div {
+   display: flex;
+   align-items: flex-start;
+   border: 1px green solid;
+   gap: 30px
+}
+
+#nav_c1 {
+   width: 15%;
+}
+
+#nav_c1>img {
+   width: 100%;
+}
+
+#nav_c2>div {
+   /* position:relative; */
+
+   border: 1px solid rgb(198, 17, 234);
+}
+
+#nav_c3>div:last-child {
+   display: flex;
+   gap: 5px;
+
+}
+
+#added_items {
+   border: 1px solid fuchsia;
+   padding: 0 5px;
+   background-color: gray;
+   border-radius: 50%;
+}
+
+/* .abs{
+   position:absolute;
+   display: none;
+} */
+.dropdowns {
+   position: absolute;
+   top: 100%;
+   left: 0;
+   right: 0;
+   border: 2px solid salmon;
+   display: none;
+   padding: 0 10%;
+   justify-content: space-around;
+}
+#searchs>div{
+   top:0;
+   right:0;
+   z-index: 4;
+   position:absolute;
+   height:100vh;
+   width:400px;
+   border:1px red solid;
+   background-color: white;
+   display:none;
+}

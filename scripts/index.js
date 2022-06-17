@@ -1,6 +1,35 @@
 import { slideshow, slideshow_ii } from "../components/slideshow.js";
 import { slideshows, deals, trending, newLaunches, wfh, unboxed, logo, slideShow } from "../components/dataStorage.js";
-import { footerz } from "../components/navbar.js"
+import { footerz,navbars } from "../components/navbar.js"
+// ----------------------------------------------------------------------------------------->
+document.getElementById("navbars").innerHTML=navbars();
+let body=document.querySelector("html");
+
+	let ref = document.querySelectorAll(".ref");
+	let childs1 = document.querySelectorAll(".dropdowns");
+
+	for (let i = 0; i < ref.length; i++) {
+		ref[i].addEventListener("mouseover", function () {
+			childs1[i].style.display = "flex";
+		})
+
+		ref[i].addEventListener("mouseout", function () {
+			childs1[i].style.display = "none";
+		})
+	}
+	let search_div=document.querySelector("#searchs>div");
+	let search=document.querySelector("#searchs");
+	search.onclick=()=>{
+		search_div.style.display="block";
+		// body.style.filter="brightness(50%)";
+		search_div.style.filter="brightness(50%)";
+	}
+	window.onclick=(event)=>{
+		if(event.target!=search_div && event.target!=search) {
+			search_div.style.display="none";
+			body.style.filter="brightness(100%)";
+		}
+	}
 
 // ---------------------------------------------------------------------------------------------->
 
