@@ -309,6 +309,26 @@ for (let i = 0; i < parents.length; i++) {
 
 document.getElementById('footerz').innerHTML = footerz();
 
+document.getElementById('fbz')
+   .addEventListener('click', () => {
+      window.location.href = 'https://www.facebook.com/HeadphoneZone';
+   });
+
+document.getElementById('twz')
+   .addEventListener('click', () => {
+      window.location.href = 'https://twitter.com/Headphone_Zone';
+   });
+
+document.getElementById('igz')
+   .addEventListener('click', () => {
+      window.location.href = 'https://www.instagram.com/headphonezone/';
+   });
+
+document.getElementById('ytz')
+   .addEventListener('click', () => {
+      window.location.href = 'https://www.youtube.com/channel/UCVJzKP5WF8PAYrEjoroWtCw';
+   });
+
 // window.onclick ------------------------------------------------------------------>
 
 window.onclick = (event) => {

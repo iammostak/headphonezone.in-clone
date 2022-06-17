@@ -33,10 +33,10 @@ function footerz() {
          <div>
             <h4>FOLLOW US</h4>
             <div id="followz">
-               <div><i class="fa-brands fa-facebook-f"></i></div>
-               <div><i class="fa-brands fa-twitter"></i></div>
-               <div><i class="fa-brands fa-instagram"></i></div>
-               <div><i class="fa-brands fa-youtube"></i></div>
+               <div id="fbz"><i class="fa-brands fa-facebook-f"></i></div>
+               <div id="twz"><i class="fa-brands fa-twitter"></i></div>
+               <div id="igz"><i class="fa-brands fa-instagram"></i></div>
+               <div id="ytz"><i class="fa-brands fa-youtube"></i></div>
             </div>
          </div>
       </div>
