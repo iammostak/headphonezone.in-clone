@@ -40,5 +40,5 @@ We, a group of 6 members, have finished this project and have built a clone of a
 ## Glimpses of our project
 # 1. Landing Page
 
-[image link](https://github.com/iammostak/headphonezone.in/blob/main/images/Aud-player.jpg?raw=true)
-more info to be updated later.. 
+![image](https://github.com/iammostak/headphonezone.in/blob/main/images/Aud-player.jpg?raw=true)
+
