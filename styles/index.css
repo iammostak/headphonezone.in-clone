@@ -167,7 +167,7 @@ button:hover {
 #leftDivz, #rightDivz {
    position: absolute;
    border: 1.7px solid;
-   top: 51%;
+   top: 47%;
    padding: 14px 18px;
    border-radius: 50%;
    cursor: pointer;
