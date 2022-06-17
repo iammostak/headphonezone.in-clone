@@ -71,11 +71,12 @@
     border: 0;
     border-radius: 20px;
     cursor: pointer;
+    margin-bottom: 50px;
 }
 h2{
     margin-bottom: 20px;
 }
-p{
+.grey{
     margin-bottom: 20px;
 }
 select{

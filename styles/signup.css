@@ -11,7 +11,7 @@
     box-sizing: border-box;
     padding: 40px;
 }
-input{
+#first_name, #last_name, #email, #password, #submit{
     width: 100%;
     margin-bottom: 20px;
     height: 40px;

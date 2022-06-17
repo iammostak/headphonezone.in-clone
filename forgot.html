@@ -6,10 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles/login.css">
     <link rel="icon" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTZ_6FJbyl_D7miwbUBtyQFAs6pbd4LfLRrUYVmND54gKJIj5Pl7BcgDVr_cafXNhmjKoc&usqp=CAU">
+    <link rel="stylesheet" href="styles/navbar.css">
     <title>Forgot Password</title>
 </head>
 <body>
-    <div id="navbar"></div>
+    <div id="navbars"></div>
     <div id="login">
         <h2>Enter Email and set New Password</h2>
         <p class="grey">Set New password:</p>
@@ -21,8 +22,70 @@
         </form>
         <p class="grey">New customer? <span><a href="signup.html">Create an account</a></span></p>
     </div>
+    <div id="footerz"></div>
 </body>
 </html>
 
 
+
+
+<!-- SCRIPT FILES -->
 <script src="scripts/forgot.js"></script>
+
+<script type="module">
+    import {footerz, navbars} from "./components/navbar.js";
+    
+    document.getElementById("navbars").innerHTML = navbars();
+
+
+let ref = document.querySelectorAll(".ref");
+let childs1 = document.querySelectorAll(".dropdowns");
+
+for (let i = 0; i < ref.length; i++) {
+
+   ref[i].addEventListener("mouseover", function () {
+      if (i == 2 || i == 3) childs1[i].style.display = 'block';
+      else childs1[i].style.display = "flex";
+   });
+
+   ref[i].addEventListener("mouseout", function () {
+      childs1[i].style.display = "none";
+   });
+
+}
+
+let searchs_div = document.querySelector("#searchs>div");
+let search = document.querySelector("#searchs");
+let input = document.querySelector("#searchBars");
+
+search.onclick = (event) => {
+   searchs_div.style.display = "block";
+}
+
+
+window.onclick = (event) => {
+
+if (event.target != searchs_div && event.target != search && event.target != input) searchs_div.style.display = "none";
+if (event.target != dealsz) dealsz.style.color = 'gray';
+if (event.target != trendingz) trendingz.style.color = 'gray';
+if (event.target != newLaunchesz) newLaunchesz.style.color = 'gray';
+if (event.target != wfhz) wfhz.style.color = 'gray';
+if (event.target != unboxedz) unboxedz.style.color = 'gray';
+if (event.target !== ndtv) ndtv.style.filter = 'brightness(200%)';
+if (event.target !== express) express.style.filter = 'brightness(200%)';
+if (event.target !== today) today.style.filter = 'brightness(200%)';
+if (event.target !== day) day.style.filter = 'brightness(200%)';
+if (event.target !== indulge) indulge.style.filter = 'brightness(200%)';
+if (event.target !== wire) wire.style.filter = 'brightness(200%)';
+if (event.target !== ndtv && event.target !== express && event.target !== today && event.target !== day && event.target !== indulge && event.target !== wire) {
+   piz.innerText = 'pair of good cans.';
+   piiz.innerText = 'Tired of the crappy ear buds that come with your';
+   piiiz.innerText = 'phone? Headphone Zone shows you how to buy a';
+}
+
+};
+
+    document.getElementById("footerz").innerHTML = footerz();
+
+
+</script>

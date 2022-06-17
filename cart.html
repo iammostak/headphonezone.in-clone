@@ -9,17 +9,79 @@
     <link rel="shortcut icon"
       href="https://cdn.shopify.com/s/files/1/0153/8863/files/Logo-Favicon-Headphone-Zone-01_96x96.png?v=1641209971"
       type="image/x-icon">
+      <link rel="stylesheet" href="styles/navbar.css">
 </head>
 <body>
-    <div id="navbar"></div>
+    <div id="navbars"></div>
     <h1 id="cartPrice">Total Cart Price: <span></span></h1>
     <h1>Items in Cart</h1>
     <div id="container"></div>
     <div id="checkout_box">
         <button id="checkout">CHECKOUT - <span></span></button>
     </div>
+    <div id="footerz"></div>
 </body>
 </html>
 
 
+
+<!-- SCRIPT FILES -->
 <script src="scripts/cart.js"></script>
+
+<script type="module">
+    import {footerz, navbars} from "./components/navbar.js";
+    
+    document.getElementById("navbars").innerHTML = navbars();
+
+
+let ref = document.querySelectorAll(".ref");
+let childs1 = document.querySelectorAll(".dropdowns");
+
+for (let i = 0; i < ref.length; i++) {
+
+   ref[i].addEventListener("mouseover", function () {
+      if (i == 2 || i == 3) childs1[i].style.display = 'block';
+      else childs1[i].style.display = "flex";
+   });
+
+   ref[i].addEventListener("mouseout", function () {
+      childs1[i].style.display = "none";
+   });
+
+}
+
+let searchs_div = document.querySelector("#searchs>div");
+let search = document.querySelector("#searchs");
+let input = document.querySelector("#searchBars");
+
+search.onclick = (event) => {
+   searchs_div.style.display = "block";
+}
+
+
+window.onclick = (event) => {
+
+if (event.target != searchs_div && event.target != search && event.target != input) searchs_div.style.display = "none";
+if (event.target != dealsz) dealsz.style.color = 'gray';
+if (event.target != trendingz) trendingz.style.color = 'gray';
+if (event.target != newLaunchesz) newLaunchesz.style.color = 'gray';
+if (event.target != wfhz) wfhz.style.color = 'gray';
+if (event.target != unboxedz) unboxedz.style.color = 'gray';
+if (event.target !== ndtv) ndtv.style.filter = 'brightness(200%)';
+if (event.target !== express) express.style.filter = 'brightness(200%)';
+if (event.target !== today) today.style.filter = 'brightness(200%)';
+if (event.target !== day) day.style.filter = 'brightness(200%)';
+if (event.target !== indulge) indulge.style.filter = 'brightness(200%)';
+if (event.target !== wire) wire.style.filter = 'brightness(200%)';
+if (event.target !== ndtv && event.target !== express && event.target !== today && event.target !== day && event.target !== indulge && event.target !== wire) {
+   piz.innerText = 'pair of good cans.';
+   piiz.innerText = 'Tired of the crappy ear buds that come with your';
+   piiiz.innerText = 'phone? Headphone Zone shows you how to buy a';
+}
+
+};
+
+    document.getElementById("footerz").innerHTML = footerz();
+
+
+</script>
