@@ -273,6 +273,13 @@ span {
 }
 
 #noResults>button {
+   padding: 17px 30px;
+   font-size: 14px;
+   font-weight: bold;
+   border-radius: 30px;
+   border: none;
+   cursor: pointer;
+   letter-spacing: 0.7px;
    color: white;
    background-color: blue;
 }
