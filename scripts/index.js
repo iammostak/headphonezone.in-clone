@@ -354,7 +354,7 @@ document.getElementById('ytz')
 
 // added items in the cart.----------------------------------------------------->
 
-let lengths = localStorage.getItem("lengths")||0;
+let lengths = localStorage.getItem("lengths") || 0;
 document.getElementById("added_items").innerText = lengths;
 
 // window.onclick ------------------------------------------------------------------>
