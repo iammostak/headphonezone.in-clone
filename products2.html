@@ -8,18 +8,20 @@
     <link rel="shortcut icon"
     href="https://cdn.shopify.com/s/files/1/0153/8863/files/Logo-Favicon-Headphone-Zone-01_96x96.png?v=1641209971"
     type="image/x-icon">
-    <link rel="stylesheet" href="./styles/product2.css">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&amp;display=swap" rel="stylesheet">
+<link rel="stylesheet" href="./styles/product2.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lora&family=Montserrat:wght@500;600&family=Open+Sans:wght@300&family=PT+Serif:wght@400;700&family=Roboto:wght@300;500&family=Work+Sans&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <link rel="stylesheet" href="https://sdk.loyaltylion.net/sdk/css/9224b681a557c3d0aed4d19e78fd62c7/modern-ef61cb4-97688d9.css" media="all" data-lion-css="modern">
-    
+   <link rel="stylesheet" href="styles/navbar.css">
     <style>
      
 
 </style>
 </head>
 <body>
-    <div id="navbar"></div>
+    <div id="navbars"></div>
     <section>
     <div>
         <div>
@@ -339,18 +341,101 @@
     </div>
     <br>
     <div  class="youtubereview">
-        <h1 id="reviewhead"></h1>
+        <h1 id="reviewhead">MORE FROM </h1>
         <p> OUR HEADPHONE GURU'S TOP PICKS FOR YOU</p>
     </div>
+    <div id="youtubereviews102"></div>
     <div  class="youtubereview">
         <h1>RECENTLY VIEWED</h1></div>
     <div  id="youtubereviews2"></div>
 </section>
+<div id="smartcontainer_s1">
+    <div>
+       <img id="smartindia" src="https://cdn.shopify.com/s/files/1/0153/8863/files/ALL-CITIES-2_1000x.jpg?v=1648538565"
+          alt="">
+    </div>
+    <div>
+       <div id="smartcard_s">
+          <p>UPCOMING EVENTS</p>
+          <h1>COMING TO A CITY NEAR YOU!</h1>
+          <p>Get ready to put on some headphones,
+             grab your mugs and rediscover your favourite music like never before.
+             With a lineup of the world's finest headphones, food, beverages,
+             music and conversations to share with friends and strangers alike,
+             Headphone Connect is back!
+          </p>
+          <button>EXPLORE NOW</button>
+       </div>
+    </div>
+ </div>
 
+
+
+
+<div id="footerz"></div>
+<div id="alts" >Item Added To Cart</div>
 </div>
 </body>
 </html>
 <script  src="./scripts/product2.js"></script>
 
-<script src="./componants/data2.js"></script>
-<script src=".//componants/apend2.js"></script>
+<script src="./scripts/data2.js"></script>
+<script src="./scripts/apend2.js"></script>
+
+<script type="module">
+    import {footerz, navbars} from "./components/navbar.js";
+    
+    document.getElementById("navbars").innerHTML = navbars();
+
+
+let ref = document.querySelectorAll(".ref");
+let childs1 = document.querySelectorAll(".dropdowns");
+
+for (let i = 0; i < ref.length; i++) {
+
+   ref[i].addEventListener("mouseover", function () {
+      if (i == 2 || i == 3) childs1[i].style.display = 'block';
+      else childs1[i].style.display = "flex";
+   });
+
+   ref[i].addEventListener("mouseout", function () {
+      childs1[i].style.display = "none";
+   });
+
+}
+
+let searchs_div = document.querySelector("#searchs>div");
+let search = document.querySelector("#searchs");
+let input = document.querySelector("#searchBars");
+
+search.onclick = (event) => {
+   searchs_div.style.display = "block";
+}
+
+
+window.onclick = (event) => {
+
+if (event.target != searchs_div && event.target != search && event.target != input) searchs_div.style.display = "none";
+if (event.target != dealsz) dealsz.style.color = 'gray';
+if (event.target != trendingz) trendingz.style.color = 'gray';
+if (event.target != newLaunchesz) newLaunchesz.style.color = 'gray';
+if (event.target != wfhz) wfhz.style.color = 'gray';
+if (event.target != unboxedz) unboxedz.style.color = 'gray';
+if (event.target !== ndtv) ndtv.style.filter = 'brightness(200%)';
+if (event.target !== express) express.style.filter = 'brightness(200%)';
+if (event.target !== today) today.style.filter = 'brightness(200%)';
+if (event.target !== day) day.style.filter = 'brightness(200%)';
+if (event.target !== indulge) indulge.style.filter = 'brightness(200%)';
+if (event.target !== wire) wire.style.filter = 'brightness(200%)';
+if (event.target !== ndtv && event.target !== express && event.target !== today && event.target !== day && event.target !== indulge && event.target !== wire) {
+   piz.innerText = 'pair of good cans.';
+   piiz.innerText = 'Tired of the crappy ear buds that come with your';
+   piiiz.innerText = 'phone? Headphone Zone shows you how to buy a';
+}
+
+};
+
+    document.getElementById("footerz").innerHTML = footerz();
+
+
+</script>

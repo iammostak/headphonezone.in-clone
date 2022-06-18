@@ -8,6 +8,34 @@
 img{
 cursor: pointer;
 }
+/* #alts{
+    width: 100%;
+    background-color: blue;
+    text-align: center;
+    color: white;
+    font-size: large;
+    font-weight: 800;
+    padding: 15px;
+    display: none;
+} */
+#alts {
+    width: 100%;
+    position: sticky;
+    bottom: 80%;
+    text-align: center;
+    z-index: 2;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    padding: 1.2% 3%;
+    font-size: 18px;
+    font-weight: 800;
+    color: white;
+    background-color: blue;
+    display: none;
+
+ }
+ 
 #top_bar{
     width: 100%;
     margin:  auto ;
@@ -19,8 +47,8 @@ cursor: pointer;
     gap: 40px;
 }
 #images1{
-    height:auto;
-    width: fit-content;
+    height:fit-content;
+    width: 100%;
   display: flex;
    
 }
@@ -437,8 +465,6 @@ color: rgb(179, 179, 179);
 .img201{
     display: flex;
 }
-
-
  .warranty{
     width: 80%;
     align-items: center;
@@ -494,7 +520,7 @@ width: 80%;
 }
 .youtubereview{
     width: 80%;
-    margin:50px auto;
+    margin:30px auto;
     text-align: center;
 }
 .youtubereview>p{
@@ -509,25 +535,42 @@ width: 80%;
 
 
 #reviewid{
-    width: 100%;
+    width: 205px;
+   line-height: 1.7em;
+   color: rgb(66, 66, 66);
+   cursor: pointer;
+   padding: 1%;
 }
 #reviewid>img{
+    width: 80%;
+}
+#reviewid>img:hover{
     width: 100%;
 }
-#youtubereviews1,#youtubereviews2{ 
-    display:grid;
-    width: 80%;
-   grid-template-columns: 1fr 1fr 1fr 1fr;
-    margin: auto;
-    height: fit-content;
-    gap: 40px;
-    justify-content: center;
-    text-align: center;
-    line-height: 30px;
-    overflow: hidden;
-
-
+#reviewid>p{
+    height: 25px;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
+#reviewid>h2{
+
+    height: 31px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+#youtubereviews1,#youtubereviews2,#youtubereviews102{ 
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    width: 80%;
+    margin: auto;
+    display: flex;
+    height: 400px;
+    overflow-x: scroll;
+}
+#youtubereviews1::-webkit-scrollbar ,#youtubereviews2::-webkit-scrollbar,#youtubereviews102::-webkit-scrollbar{
+    display: none;
+ }
 .reviewclass{
     text-align: center;
     align-items: center;
@@ -546,3 +589,64 @@ width: 80%;
     margin: 10px auto;
     gap: 20px;
 }
+#smartcontainer_s1 {
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    height: 640px;
+    color: rgb(74, 74, 74);
+    margin: 40px 0 70px 0;
+ 
+ }
+ #smartcard_s>p {
+    line-height: 24px;
+    font-size: 14px;
+    margin: 0 0 17px 0;
+ }
+ 
+#smartcard_s>p:first-of-type {
+    font-weight: 800;
+    letter-spacing: 1px;
+ }
+ 
+ #smartcard_s>h1 {
+    line-height: 35px;
+    font-size: 33px;
+    font-weight: 800;
+    font-family: 'Zurich Extended', sans-serif;
+    color: rgb(74, 74, 74);
+    letter-spacing: 1px;
+    margin: 0 0 27px 0;
+ }
+ 
+ #smartcontainer_s1>div:first-child {
+    position: relative;
+    width: 35%;
+    background-color: rgb(252, 228, 226);
+ }
+ 
+ #smartindia {
+    position: absolute;
+    width: 107%;
+    left: 23%;
+    top: 12%;
+    border-radius: 10px;
+ }
+ 
+ #smartcontainer_s1>div:last-child {
+    box-sizing: border-box;
+    width: 49%;
+    display: flex;
+    align-items: center;
+    padding: 0 7% 0 0;
+ }
+ 
+ #smartcard_s>button {
+    border: none;
+    padding: 15px;
+    border-radius: 20px;
+    margin: 20px auto;
+    background-color: rgb(146, 0, 255);
+    color: white;
+ }
+ 

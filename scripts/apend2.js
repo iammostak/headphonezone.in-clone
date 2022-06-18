@@ -34,10 +34,13 @@ let rating=()=>{
 }
 
 
+// DATA------------------------------------------------------->
+// DATA END ---------------------------------------->
+
 let container1= document.getElementById("youtubereviews1")
 let container2= document.getElementById("youtubereviews2")
+let container3= document.getElementById("youtubereviews102")
 
-let mostreview=JSON.parse(localStorage.getItem("localdata"))
 
 
 
@@ -48,7 +51,14 @@ datas.forEach(({image1,image2,title,subtitle,price,price2,rating}) => {
 let div=ADD("div");
 div.setAttribute("id","reviewid")
 let image=ADD("img");
-let h1tag=ADD("h1")
+image.setAttribute("class","smartimg")
+image.addEventListener("mouseenter",function(){
+  image.src=image2
+})
+image.addEventListener("mouseleave",function(){
+  image.src=image1
+})
+let h1tag=ADD("h2")
 let ptag=ADD("p")
 let div2=ADD("div")
 div2.setAttribute("class","reviewclass")
@@ -89,18 +99,16 @@ container.append(div);
 
 }
 
-// function ADD(creat){
-//     return para=document.createElement(creat)
-    
-//  }
- append(mostreview,container1)
- append(lastdata,container2)
 
-// export {midapend,rating,append}
+ append(somedata,container1)
+ append(lastdata,container2)
+append(somemoredata,container3)
+
 
 function  pushlocal({...a}){
     localStorage.setItem("products",JSON.stringify(a))
-    window.scrollTo(0,0)
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
     window.location.reload();
 }
 

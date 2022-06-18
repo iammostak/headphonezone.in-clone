@@ -332,15 +332,19 @@ for (var i = 0; i < btns.length; i++) {
 
 
 
-
 //   <------cartpart------>
   let car=JSON.parse(localStorage.getItem("cartdata"))||[]
 
   let Addcart=document.getElementById("Add_cart");
   Addcart.addEventListener("click",function(){
-    alert("Item Added to cart")
+let alts= document.getElementById("alts")
+alts.style.display="block"
     car.push(data)
     localStorage.setItem("cartdata",JSON.stringify(car))
+    setTimeout(function(){
+        alts.style.display="none"
+    
+    },3000)
   })
 
 
