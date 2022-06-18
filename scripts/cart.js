@@ -4,6 +4,9 @@ let cartData = JSON.parse(localStorage.getItem("cartdata")) || [];
 
 let cartPrice=0;
 
+
+
+// Cart Total Price
 for(let i=0; i<cartData.length; i++)
 {
     let x = cartData[i].price.trim().split(" ");
@@ -14,6 +17,8 @@ for(let i=0; i<cartData.length; i++)
 document.querySelector("#cartPrice>span").innerText = `र ${cartPrice}`;
 document.querySelector("#checkout>span").innerText = `र ${cartPrice}`;
 
+
+// Displaying the items added to the Cart
 let displayCart = () =>{
     let container = document.getElementById("container");
     cartData.forEach((ele, index) =>{
@@ -111,13 +116,15 @@ let displayCart = () =>{
 displayCart();
 
 
+// Removing the added item as per User's Instructions
 function removeElement(i){
     cartData.splice(i, 1);
-    localStorage.setItem("cartdata", JSON.stringify(cartData));
     window.location.reload();
 }
 
 
+
+// CHECKOUT
 document.getElementById("checkout").addEventListener("click", checkoutToPrice);
 
 
