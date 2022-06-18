@@ -1,7 +1,11 @@
 * {
     margin: 0;
     padding: 0;
- }#navbar{
+ }
+ body::-webkit-scrollbar {
+    display: none;
+ }
+ #navbar{
     margin-bottom: 20px;
 }
 #sign{
