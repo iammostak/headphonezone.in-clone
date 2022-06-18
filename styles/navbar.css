@@ -141,7 +141,7 @@ span {
    width: 15%;
 }
 
-#nav_c1>img {
+#nav_c1>a>img {
    width: 80%;
 }
 
@@ -194,6 +194,21 @@ span {
 .dropdowns p:hover {
    color: gray;
    text-decoration: underline;
+}
+
+.dropdowns a {
+   text-decoration: none;
+   color: rgb(74, 74, 74);
+}
+
+.dropdowns a:hover {
+   text-decoration: underline;
+   color: gray;
+}
+
+#nav_c3>div:nth-child(2)>a {
+   text-decoration: none;
+   color: rgb(74, 74, 74);
 }
 
 .infoimgs {

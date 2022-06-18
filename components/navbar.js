@@ -83,17 +83,19 @@ function navbars() {
    return `
       <div id="nav">
          <div id="nav_c1">
-            <img
-               src="https://cdn.shopify.com/s/files/1/0153/8863/files/Headphone-Zone-Animated-Header_400x_b56ee274-b480-4d0f-91ae-4a16d148a93f.gif?v=1580537719"
-               alt="">
+            <a href="">
+               <img
+                  src="https://cdn.shopify.com/s/files/1/0153/8863/files/Headphone-Zone-Animated-Header_400x_b56ee274-b480-4d0f-91ae-4a16d148a93f.gif?v=1580537719"
+                  alt="">
+            </a>
          </div>
          <div id="nav_c2">
             <div class="ref">Categories
                <div class="dropdowns">
                   <div>
                      <h4>BEGINNER</h4>
-                     <p>Earphones</p>
-                     <p>Headphones</p>
+                     <p><a href="">Earphones</a></p>
+                     <p><a href="">Headphones</a></p>
                      <p>portable Amp/DACS</p>
                      <p>Desktop Amp/DACS</p>
                      <p>Hi Res Players</p>
@@ -325,7 +327,7 @@ function navbars() {
                   </div>
                </div>
             </div>
-            <div>Login</div>
+            <div><a href="">Login</a></div>
             <div>Cart
                <div id="added_items">0</div>
             </div>
