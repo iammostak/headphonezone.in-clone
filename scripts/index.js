@@ -67,6 +67,16 @@ setInterval(() => {
 
 }, 5000);
 
+// logos by md & shakil ahmad -------------------------------------->
+
+let sz = document.querySelectorAll('.icon');
+
+sz.forEach(function (el) {
+   el.addEventListener('click', function () {
+      window.location.href = 'earphone.html';
+   });
+});
+
 // chart part -------------------------------------------------------->
 
 let contentz = document.getElementById('contentz');
