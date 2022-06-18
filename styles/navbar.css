@@ -52,7 +52,12 @@
 }
 
 #detailz p:hover {
-   color: lightgray;
+   color: gray;
+   text-decoration: underline;
+}
+
+#detailz>div:nth-last-child(2)>p:nth-last-child(2) {
+   text-decoration: none;
 }
 
 #followz {
@@ -187,7 +192,8 @@ span {
 }
 
 .dropdowns p:hover {
-   color: lightgray;
+   color: gray;
+   text-decoration: underline;
 }
 
 .infoimgs {
