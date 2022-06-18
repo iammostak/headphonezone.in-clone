@@ -18,7 +18,6 @@ function checkDetails(){
         if(user[i].email===mail && user[i].password===password)
         {
             alert("Login Successful");
-            window.location.href="index.html";
         }
         else{
             count++;
