@@ -1,3 +1,7 @@
+// ---------------------------------------------Navbar---------------------------------
+
+
+// ------------------------------------Data Append-----------------------------------------------
 
 var ProductsArray = [
     {
@@ -266,15 +270,35 @@ function appendData(data){
         smalldiv.append(rupeediv, oldprice)
 
         let ratingsdiv = document.createElement("div")
+        ratingsdiv.setAttribute('class', 'ratings');
+
+        let star1 = document.createElement('i');
+        star1.setAttribute('class', "fa fa-star checked");
+  
+        let star2 = document.createElement('i');
+        star2.setAttribute('class', "fa fa-star checked");
+  
+        let star3 = document.createElement('i');
+        star3.setAttribute('class', "fa fa-star checked");
+  
+        let star4 = document.createElement('i');
+        star4.setAttribute('class', "fa fa-star");
+  
+        let star5 = document.createElement('i');
+        star5.setAttribute('class', "fa fa-star");
 
         let ratings = document.createElement("p")
         ratings.innerText = ele.rating;
-        ratings.style.fontSize = "11px";
+        ratings.style.fontSize = "13px";
 
-       ratingsdiv.append(ratings)
+       ratingsdiv.append(star1, star2, star3, star4, star5, ratings)
        div.append(image, title,  subtitle, smalldiv, ratingsdiv)
        container.append(div)
 
+       div.onclick = () => {
+        localStorage.setItem("products", JSON.stringify(ele));
+        window.location.href = "./Products2 ";
+       }
 
     })
 
@@ -283,8 +307,6 @@ function appendData(data){
 }
 
 appendData(ProductsArray)
-
-
 
 // -----------------------------------Sorting----------------------------------
 
@@ -312,6 +334,7 @@ if(select == "HTL") {
 }
 
  }
+// --------------------------------------------Footer---------------------------------
 
 
 // import {footerz} from "../components/navbar.js"
