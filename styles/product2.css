@@ -14,16 +14,7 @@ button{
 img{
 cursor: pointer;
 }
-/* #alts{
-    width: 100%;
-    background-color: blue;
-    text-align: center;
-    color: white;
-    font-size: large;
-    font-weight: 800;
-    padding: 15px;
-    display: none;
-} */
+
 #alts {
     width: 100%;
     position: sticky;
