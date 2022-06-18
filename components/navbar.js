@@ -83,7 +83,7 @@ function navbars() {
    return `
       <div id="nav">
          <div id="nav_c1">
-            <a href="">
+            <a href="index.html">
                <img
                   src="https://cdn.shopify.com/s/files/1/0153/8863/files/Headphone-Zone-Animated-Header_400x_b56ee274-b480-4d0f-91ae-4a16d148a93f.gif?v=1580537719"
                   alt="">
