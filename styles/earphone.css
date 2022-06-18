@@ -57,6 +57,10 @@
     margin-top: 20px;
 }
 
+.bannerbox #img:hover {
+    width: 52%;
+    cursor: pointer;
+}
 
 /* ------------------------------------------Products & Filter----------------------------------------------- */
 
@@ -114,15 +118,23 @@
     position: relative;
   }  
 
+  .largeproducts .divs:hover {
+    cursor: pointer;
+}
+
 .largeproducts img {
+    background-size: contain;
     width: 100%;
     height: 250px;
     border-radius: 15px;
+   
 }
 
-.largeproducts .divs:hover {
-    cursor: pointer;
-}
+.largeproducts img:hover {
+    width: 102%;
+    height: 255px;
+    border-radius: 16px;
+    }
 
 .divs .left {
     position: absolute;
@@ -148,6 +160,7 @@
     /* border: 1px solid ; */
     display: flex;
     justify-content: flex-end;
+    margin-bottom: 20px;
 
 }
  #sorting {
@@ -177,6 +190,10 @@
     /* border: 1px solid black; */
 }
 
+.smallBox img:hover{
+    width: 85%;
+}
+
 .smallBox .smalldiv {
     width: 40%;
     display: flex;
@@ -189,6 +206,20 @@
 
 .smalldiv .rupeediv {
     display: flex;
+}
+
+.smallProducts .ratings {
+    width: 50%;
+    margin: auto;
+    margin-top: 10px;
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+    /* border: 1px solid; */
+}
+
+.ratings .checked {
+    color: orange;
 }
 
 /* -------------------------------------------Page Changer---------------------------------------------------- */
@@ -207,22 +238,24 @@
     width:20%;
     height: 45px;
     border: 1px solid;
-    text-align: center;
-    /* border-radius: 15px; */
-   
+    text-align: center; 
+    background-color: white; 
 
 }
 
-.first {
+.pageChanger .first {
     border-top-left-radius: 25px;
     border-bottom-left-radius: 25px;
 }
 
-.last {
+.pageChanger .last {
     border-top-right-radius: 25px;
     border-bottom-right-radius: 25px;
 }
 
+.pageChanger .arrow {
+    font-size: 20px;
+}
 /* ------------------------------------------------Details Css-------------------------------------- */
 
 hr {
