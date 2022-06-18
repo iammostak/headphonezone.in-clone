@@ -454,7 +454,7 @@ button:hover {
    width: 240px;
    background-color: white;
    border-radius: 10px;
-   z-index: 1;
+   z-index: 0;
    bottom: 7%;
    left: 3%;
    font-weight: bold;
