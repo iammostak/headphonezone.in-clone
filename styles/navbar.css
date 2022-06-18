@@ -206,7 +206,7 @@ span {
    color: gray;
 }
 
-#nav_c3>div:nth-child(2)>a {
+#nav_c3>div>a {
    text-decoration: none;
    color: rgb(74, 74, 74);
 }

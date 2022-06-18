@@ -161,6 +161,10 @@ let appendChart = (data) => {
 
 }; appendChart(deals());
 
+contentz.addEventListener("click", () => {
+   window.location.href = "earphone.html";
+});
+
 // brand logo's ---------------------------------------------------------------->
 
 let logoz = document.getElementById('logoz');
@@ -347,6 +351,11 @@ document.getElementById('ytz')
    .addEventListener('click', () => {
       window.location.href = 'https://www.youtube.com/channel/UCVJzKP5WF8PAYrEjoroWtCw';
    });
+
+// added items in the cart.----------------------------------------------------->
+
+let lengths = localStorage.getItem("lengths")||0;
+document.getElementById("added_items").innerText = lengths;
 
 // window.onclick ------------------------------------------------------------------>
 
