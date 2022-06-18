@@ -78,3 +78,13 @@ We, a group of 6 members, have finished this project and have built a clone of a
 
 more to be updated later..
 
+
+# Conclusion:
+We are very thankful to all our teammates and instructors for the support and for the completion of the project in due time. We are looking forward to adding some more features and functionalities, which are left in this project, for future expansion.
+
+## Thanks for reading.
+
+Regards,
+
+Shashank Pandey and team
+
