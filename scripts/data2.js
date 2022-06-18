@@ -9,7 +9,7 @@
             rating: "171 reviews",
         }
         let somedata=[{
-            image1: "https://cdn.shopify.com/s/files/1/0153/8863/products/Headphone-Zone-Final-Audio-E1000-Black_1160x.jpg?v=1633698380",
+            image1: "https://cdn.shopify.com/s/files/1/0153/8863/products/52af5795fecba210a9ac164f697ffdb3_1000x.jpg?v=1650872939",
             image2: "https://cdn.shopify.com/s/files/1/0153/8863/products/Headphone-Zone-Final-Audio-E1000-BALCK-No-Mic-03_1160x.jpg?v=1632819650",
             title: "Final - E1000",
             subtitle: "In-Ears With 1 Dynamic Driver",
@@ -48,7 +48,7 @@
         let somemoredata=[
             {
                image2: "https://cdn.shopify.com/s/files/1/0153/8863/products/Headphone-Zone-Final-Audio-E1000-Black_d3ba8d1d-2b7c-411b-9d19-27f13d46094c_1000x.jpg?v=1640843311",
-               image1: "https://cdn.shopify.com/s/files/1/0153/8863/products/Headphone-Zone-Tanchjim-Tanya-New-1_700x.jpg?v=1629441140",
+               image1: "https://cdn.shopify.com/s/files/1/0153/8863/products/67a151ae85ec21a67cb5c5aeea790df5_1000x.jpg?v=1650872939",
                title: "Final - E1000 ",
                subtitle: "Earphones With Cutting Edge Japanese Engineering",
                price: "From ₹ 1,999", 

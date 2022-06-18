@@ -83,8 +83,15 @@ color_name="blue"
     if(x[i]=="B"&&x[i+1]=="l"&&x[i+2]=="a"&&x[i+3]=="c"){
 color_name="black"
     } 
-    if(x[i]=="r"&&x[i+1]=="e"&&x[i+2]=="d"){
+    if((x[i]=="r"||x[i]=="R")&&x[i+1]=="e"&&x[i+2]=="d"){
 color_name="red"
+    }
+    if(x[i]=="p"&&x[i+1]=="i"&&x[i+2]=="n"&&x[i+4]=="k"){
+        color_name="pink"
+            }
+
+    else{
+        color_="black"
     }
 }
 
@@ -332,21 +339,8 @@ for (var i = 0; i < btns.length; i++) {
 
 
 
-//   <------cartpart------>
-  let car=JSON.parse(localStorage.getItem("cartdata"))||[]
 
-  let Addcart=document.getElementById("Add_cart");
-  Addcart.addEventListener("click",function(){
-let alts= document.getElementById("alts")
-alts.style.display="block"
-    car.push(data)
-    localStorage.setItem("cartdata",JSON.stringify(car))
-    setTimeout(function(){
-        alts.style.display="none"
-    
-    },3000)
-  })
-
+  
 
 
 

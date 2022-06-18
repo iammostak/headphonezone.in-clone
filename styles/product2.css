@@ -514,6 +514,21 @@ color: rgb(179, 179, 179);
 width: 80%;
 
 }
+#videosdiv{
+    width: 80%;
+    gap: 40px;
+    display: flex;
+    margin: auto;
+    height: auto;
+    /* overflow-x: scroll;
+    overflow-y: hidden;
+    white-space: nowrap; */
+}
+#videosdiv>div{
+    width: 300px;
+    display: inline-block;
+
+}
 .media-reviews-new-4>div{
     padding: 10px;
     width: 100%;
