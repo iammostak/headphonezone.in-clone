@@ -94,8 +94,8 @@ function navbars() {
                <div class="dropdowns">
                   <div>
                      <h4>BEGINNER</h4>
-                     <p><a href="">Earphones</a></p>
-                     <p><a href="">Headphones</a></p>
+                     <p><a href="earphone.html">Earphones</a></p>
+                     <p><a href="earphone.html">Headphones</a></p>
                      <p>portable Amp/DACS</p>
                      <p>Desktop Amp/DACS</p>
                      <p>Hi Res Players</p>
@@ -327,8 +327,8 @@ function navbars() {
                   </div>
                </div>
             </div>
-            <div><a href="">Login</a></div>
-            <div>Cart
+            <div><a href="login.html">Login</a></div>
+            <div><a href="cart.html">Cart</a>
                <div id="added_items">0</div>
             </div>
          </div>
