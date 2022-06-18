@@ -119,6 +119,7 @@ displayCart();
 // Removing the added item as per User's Instructions
 function removeElement(i){
     cartData.splice(i, 1);
+    localStorage.setItem("cartdata", JSON.stringify(cartData));
     window.location.reload();
 }
 
