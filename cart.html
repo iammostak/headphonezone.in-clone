@@ -84,4 +84,10 @@ if (event.target !== ndtv && event.target !== express && event.target !== today 
     document.getElementById("footerz").innerHTML = footerz();
 
 
+    //  To give no. of Items in Cart
+    let data = JSON.parse(localStorage.getItem("cartdata")) || [];
+
+    document.getElementById("added_items").innerText = data.length;
+
+
 </script>
