@@ -1,6 +1,6 @@
 # Headphone Zone CLONE:
 Headphone Zone Clone.
-This is a collaborative project made for educational purpose only by Ashok Smart Anumula-(fw18_0602), Md Mostafijur Rahman-(fp03_243), Mehul-(fw17_0133), Shakil Ahmad-(fp03_188), Shalini-(fw18_0446) and Shashank Pandey-(fw18_0105). 
+This is a collaborative project made for educational purpose only by Anumula Ashok-(fw18_0602), Md Mostafijur Rahman-(fp03_243), Mehul-(fw17_0133), Shakil Ahmad-(fp03_188), Shalini-(fw18_0446) and Shashank Pandey-(fw18_0105). 
 
 The project is a clone of [Headphone Zone](https://www.headphonezone.in/) which is an online electronics' shopping ecom platform.
 
@@ -14,13 +14,14 @@ We, a group of 6 members, have finished this project and have built a clone of a
 1. Attractive Navbar with complex functionalities.
 2. Excellent Homepage with complex animations and functionalities. 
 3. Login, Signup and Forgot password feature.
-4. Very detailed Product pages with needed filters and functionalities.
-5. Add to cart function and very integrated Cart page.
-6. Easy to understand information filling page.
-7. Very convenient Payment Method Selection page.
-8. Card Deatils Authentication page.
-9. OTP Authentication page.
-10. Beautifully designed footer. 
+4. Very detailed Product listing page with needed filters and functionalities.
+5. Very detailed Product page to view selected products.
+6. Add to cart function and very integrated Cart page.
+7. Easy to understand information filling page.
+8. Very convenient Payment Method Selection page.
+9. Card Deatils Authentication page.
+10. OTP Authentication page.
+11. Beautifully designed footer. 
 
 
 
@@ -51,6 +52,28 @@ We, a group of 6 members, have finished this project and have built a clone of a
 
 
 
+# 3. Information Filling Page
+
+![image](https://github.com/iammostak/headphonezone.in/blob/main/readme_images/Screenshot%20(99).png?raw=true)
+
+
+
+# 4. Payment Method Selection Page 
+
+![image](https://github.com/iammostak/headphonezone.in/blob/main/readme_images/Screenshot%20(100).png?raw=true)
+
+
+
+# 5. Card Deatils Authentication Page
+
+![image](https://github.com/iammostak/headphonezone.in/blob/main/readme_images/Screenshot%20(101).png?raw=true)
+
+
+
+
+# 6. OTP Authentication Page
+
+![image](https://github.com/iammostak/headphonezone.in/blob/main/readme_images/Screenshot%20(102).png?raw=true)
 
 
 more to be updated later..
