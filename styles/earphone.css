@@ -2,7 +2,11 @@
     margin: 0;
     padding: 0;
 }
-    
+
+body::-webkit-scrollbar {
+    display: none;
+ }  
+ 
     /* ----------------------------------------------Posters CSS------------------------------------------------- */
 #biggbox {
     position: relative;
@@ -114,27 +118,30 @@
 
 .largeproducts .divs {
     width: 45%;
+    height: 250px;
     /* border: 1px solid green; */
     position: relative;
+    border-radius: 15px;
+    overflow: hidden;
+    cursor: pointer;
   }  
 
-  .largeproducts .divs:hover {
+  /* .largeproducts .divs:hover {
     cursor: pointer;
-}
+   
+} */
 
 .largeproducts img {
-    background-size: contain;
+    /* background-size: contain; */
     width: 100%;
-    height: 250px;
     border-radius: 15px;
    
 }
 
 .largeproducts img:hover {
-    width: 102%;
-    height: 255px;
-    border-radius: 16px;
-    }
+      width: 105%;
+   
+}
 
 .divs .left {
     position: absolute;
