@@ -52,26 +52,47 @@ We, a group of 6 members, have finished this project and have built a clone of a
 
 
 
-# 3. Information Filling Page
+
+# 3. Product Page 
+
+![image](https://github.com/iammostak/headphonezone.in/blob/main/readme_images/Screenshot%20(103).png?raw=true)
+
+
+
+
+# 3. Product Details Page 
+
+![image](https://github.com/iammostak/headphonezone.in/blob/main/readme_images/Screenshot%20(103).png?raw=true)
+
+
+
+
+# 4. Cart Page 
+
+![image](https://github.com/iammostak/headphonezone.in/blob/main/readme_images/Screenshot%20(104).png?raw=true)
+
+
+
+# 5. Information Filling Page
 
 ![image](https://github.com/iammostak/headphonezone.in/blob/main/readme_images/Screenshot%20(99).png?raw=true)
 
 
 
-# 4. Payment Method Selection Page 
+# 6. Payment Method Selection Page 
 
 ![image](https://github.com/iammostak/headphonezone.in/blob/main/readme_images/Screenshot%20(100).png?raw=true)
 
 
 
-# 5. Card Deatils Authentication Page
+# 7. Card Deatils Authentication Page
 
 ![image](https://github.com/iammostak/headphonezone.in/blob/main/readme_images/Screenshot%20(101).png?raw=true)
 
 
 
 
-# 6. OTP Authentication Page
+# 8. OTP Authentication Page
 
 ![image](https://github.com/iammostak/headphonezone.in/blob/main/readme_images/Screenshot%20(102).png?raw=true)
 
