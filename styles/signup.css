@@ -1,7 +1,11 @@
 * {
     margin: 0;
     padding: 0;
- }#navbar{
+ }
+ body::-webkit-scrollbar {
+    display: none;
+ }
+ #navbar{
     margin-bottom: 20px;
 }
 #sign{
@@ -14,7 +18,7 @@
 #first_name, #last_name, #email, #password, #submit{
     width: 100%;
     margin-bottom: 20px;
-    height: 40px;
+    height: 60px;
     border-radius: 20px;
     border: 1px solid lightgray;
     padding-left: 10px;

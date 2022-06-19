@@ -1,0 +1,311 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body::-webkit-scrollbar {
+    display: none;
+ }  
+ 
+    /* ----------------------------------------------Posters CSS------------------------------------------------- */
+#biggbox {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+#biggbox #poster {
+    width: 100%;
+
+}
+
+#biggbox > #center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 57px;
+   font-weight: 900;
+   font-family: 'Nunito', sans-serif;
+   font-family: 'Poppins', sans-serif;
+
+}
+
+#biggbox > #top-left {position: absolute;
+    top: 10px;
+    left: 16px;
+    transform: translate(8%, 50%);
+    font-size: 12px;
+}
+
+/* --------------------------------------------Particular Banners CSS----------------------------------------- */
+
+ #banners {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(238, 238, 238);
+    height: 250px;
+}
+
+#banners .bannerbox {
+    width: 20%;
+    text-align: center;
+    font-size: 13px;
+    margin-top: -2px;
+    padding: 20px;
+
+}
+
+.bannerbox #img {
+    width: 50%;
+    margin-top: 20px;
+}
+
+.bannerbox #img:hover {
+    width: 52%;
+    cursor: pointer;
+}
+
+/* ------------------------------------------Products & Filter----------------------------------------------- */
+
+#boxContainer {
+    display: flex;
+    margin: auto;
+    
+    margin-right: 10px;
+    /* border: 1px solid red; */
+    justify-content: space-evenly;
+}
+
+
+ /* .......................................Filters........................................ */
+
+#filtering {
+    width: 20%;
+    /* border: 1px solid pink; */
+    
+ } 
+
+ #filtering .filtersss {
+    padding: 19.5px;
+    width: 85%;
+    border: none;
+    border-bottom: 1px solid rgb(199, 199, 199); 
+}
+
+#filtering .filters {
+    padding: 22px;
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid rgb(199, 199, 199);
+}  
+
+/* .......................................Large Products...................................... */
+
+#products {
+    /* border: 1px solid red; */
+    width: 75%;
+}
+
+ #products .largeproducts {
+  width: 100%;
+  display: flex;
+  /* border: 1px solid red; */
+  justify-content: space-evenly;
+  margin: 30px 5px;
+  padding: 10px;
+}
+
+.largeproducts .divs {
+    width: 45%;
+    height: 250px;
+    /* border: 1px solid green; */
+    position: relative;
+    border-radius: 15px;
+    overflow: hidden;
+    cursor: pointer;
+  }  
+
+  /* .largeproducts .divs:hover {
+    cursor: pointer;
+   
+} */
+
+.largeproducts img {
+    /* background-size: contain; */
+    width: 100%;
+    border-radius: 15px;
+   
+}
+
+.largeproducts img:hover {
+      width: 105%;
+   
+}
+
+.divs .left {
+    position: absolute;
+    top: 85px;
+    left: 20px;
+    color: white;
+    font-size: large;
+    font-weight: bold;
+}
+
+.divs .lefty{
+    position: absolute;
+    bottom: 90px;
+    left: 20px;
+    color: white;
+    font-size:40px;
+    font-weight: bold;
+} 
+
+/* -.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.Sorting-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.- */
+.sort {
+    width: 97%;
+    /* border: 1px solid ; */
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 20px;
+
+}
+ #sorting {
+    width: 20%;
+    /* border: 1px solid; */
+    display:flex;
+    justify-content: space-evenly;
+}
+
+.sortingOptions {
+    border: none;
+}   
+
+/* .......................................Small Products...................................... */
+
+.smallProducts {
+  /* border: 1px solid brown; */
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  grid-template-rows: repeat(5,auto);
+  gap: 20px;
+  text-align: center;
+}
+
+.smallProducts .smallBox img{
+    width: 80%;
+    /* border: 1px solid black; */
+}
+
+.smallBox img:hover{
+    width: 85%;
+}
+
+.smallBox .smalldiv {
+    width: 40%;
+    display: flex;
+    /* border: 1px solid black; */
+     margin: auto;
+    justify-content: space-evenly;
+    font-size: 14px;
+} 
+
+
+.smalldiv .rupeediv {
+    display: flex;
+}
+
+.smallProducts .ratings {
+    width: 50%;
+    margin: auto;
+    margin-top: 10px;
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+    /* border: 1px solid; */
+}
+
+.ratings .checked {
+    color: orange;
+}
+
+/* -------------------------------------------Page Changer---------------------------------------------------- */
+
+.pageChanger {
+    
+    width: 20%;
+    margin: auto;
+    margin-top: 40px;
+    display: flex;
+    border-radius: 25px;
+   
+}
+
+.pageChanger .options {
+    width:20%;
+    height: 45px;
+    border: 1px solid;
+    text-align: center; 
+    background-color: white; 
+
+}
+
+.pageChanger .first {
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+}
+
+.pageChanger .last {
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+
+.pageChanger .arrow {
+    font-size: 20px;
+}
+/* ------------------------------------------------Details Css-------------------------------------- */
+
+hr {
+    width: 95%;
+    margin: auto;
+    margin-top: 45px;
+    color: grey;
+  }
+
+.detailsbox {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+}
+
+.detailsbox .div1 {
+  width: 75%;
+  font-size: 17px;
+}
+
+.detailsbox .div1 .shortinfo {
+    margin-bottom: 20px;
+    line-height: 25px;
+}
+
+.detailsbox .div1 .longinfo {
+    margin-bottom: 20px;
+    line-height: 25px;
+}
+
+.detailsbox .div2 {
+    width: 20%;
+    font-size: 18px;
+  }
+
+  .detailsbox .div2 h4 {
+    margin-bottom: 10px;
+  }
+
+  .detailsbox .div2 h5 {
+    color: rgb(104, 104, 104);
+    margin-bottom: 5px;
+    border-bottom: 0.5px solid;
+    width: 50%;
+    cursor: pointer;
+  }

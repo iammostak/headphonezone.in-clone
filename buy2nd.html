@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon"
+    href="https://yt3.ggpht.com/mhYRabdYlTeCoNimih0gOLlKSQDKtX4Hq4M64IYIK8X1bkmGFrSV-YBp9xq2L8nq9z1srORI=s900-c-k-c0x00ffffff-no-rj"
+    type="image/x-icon">
+    <title>Card details</title>
+    <style>
+        .info>a>img{
+            width: 300px;
+            margin-top: 0px;
+            margin-bottom: 100px;
+            position: fixed;
+            margin-left: -30px;
+        }
+        input{
+            border-radius: 10px;
+        }
+        body::-webkit-scrollbar{display: none;}
+
+
+
+
+    </style>
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="styles/buy2nd.css">
+
+    <link rel="stylesheet" href="Payment.css">
+
+    <!-- <link rel="stylesheet" href="nav.css"> -->
+
+    <link rel="import" href="https://unpkg.com/sweetalert/dist/sweetalert.min.js">
+    
+
+</head>
+<body>
+   
+    <div class="info">
+        
+        <a href="index.html">
+
+            <img src="https://oppositehq.com/static/06ef157899631d88e3e8578713ad17e0/60b34/1_logo_hpzbranding_v2_2x_4ced44746e.png" alt="">
+
+        </a>
+    </div>
+
+<div class="container">
+
+    <form action="" >
+
+        <div class="row">
+
+            <div class="col">
+                <!-- color edit 1 line -->
+                <h3 class="title" style="color: whitesmoke;">payment gateway</h3>
+
+                <div class="inputBox">
+                    <span>full name :</span>
+                    <input id="name" type="text" placeholder="Enter your name" required>
+                </div>
+                <div class="inputBox">
+                    <span>email :</span>
+                    <input id="email" type="email" placeholder="example@example.com" required>
+                </div>
+                <div class="inputBox">
+                    <span>Total amount :</span>
+                    <input id="plan" type="text" placeholder="Suggestion:₹5999" required>
+                </div>
+                <div class="inputBox">
+                    <span>Mobile :</span>
+                    <input id="mobile" type="number" placeholder="Enter Your Mobile Number" required>
+                </div>
+
+               
+
+            </div>
+
+            <div class="col">
+
+                
+
+                <div class="inputBox">
+                    <span>cards accepted :</span>
+                    <img src="images\card_img.png" alt="">
+                </div>
+                <div class="inputBox">
+                    <span>name on card :</span>
+                    <input id="noc" type="text" placeholder="Name" required>
+                </div>
+                <div class="inputBox">
+                    <span>credit card number :</span>
+                    <input id="cn" type="number" placeholder="1111-2222-3333-4444" required>
+                </div>
+                <div class="inputBox">
+                    <span>exp month :</span>
+                    <input id="mon" type="text" placeholder="january" required>
+                </div>
+
+                <div class="flex">
+                    <div class="inputBox">
+                        <span>exp year :</span>
+                        <input id="yr" type="number" placeholder="2022" required>
+                    </div>
+                    <div class="inputBox">
+                        <span>CVV :</span>
+                        <input id="cvv" type="text" placeholder="1234" required>
+                    </div>
+                </div>
+
+            </div>
+    
+        </div>
+
+        <input type="submit" value="Process To Pay" class="submit-btn" required>
+
+    </form>
+
+</div>    
+    
+</body>
+<div class="footer">
+    <footer>
+        Copyright © 2022 Headphone Zone Enterprises Ltd. All rights reserved
+    </footer>
+</div>
+</html>
+<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+<script src="scripts/buy2nd.js" >
+   
+</script>

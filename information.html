@@ -1,0 +1,200 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon"
+    href="https://yt3.ggpht.com/mhYRabdYlTeCoNimih0gOLlKSQDKtX4Hq4M64IYIK8X1bkmGFrSV-YBp9xq2L8nq9z1srORI=s900-c-k-c0x00ffffff-no-rj"
+    type="image/x-icon">
+    <title>information page</title>
+    <style>
+        *{
+            font-family: sans-serif;
+        }
+
+        #top_logo>a>img{
+            width: 180px;
+            margin-left: 100px;
+            margin-top: 10px;
+            margin-bottom: 10px;
+        }
+        #payment_navigation>a{
+            text-decoration: none;
+            color: gray;
+        }
+        #payment_navigation>a:hover{
+            color: navy;
+            font-weight: bold;
+        }        
+        #payment_navigation{
+         margin-left: 100px;            
+        }
+        #contact_info{
+            margin-left: 100px;
+            margin-top: 40px;
+        }
+        #user_datails{
+            display: flex;
+        }        
+        #user_datails>img{
+            width: 100px;
+        }
+        #shipping_address{
+            margin-left: 100px;
+            margin-top: 40px;            
+        }
+        #shipping_address>input{
+            height: 40px;
+            width: 1000px;
+            border-radius: 5px;
+            border: 1px solid rgb(192, 191, 191);
+            margin-top: 10px;
+        }
+        #shipping_address>div>input{
+            height: 40px;
+            /* width: 500px; */
+            border-radius: 5px;
+            border: 1px solid rgb(109, 109, 109);
+            margin-top: 10px;
+        }  
+        #shipping_address>input  {
+            border: 1px solid rgb(109, 109, 109); 
+        }
+
+        button{
+            height: 60px;
+            border-radius: 5px;
+            border: 0px;
+            margin-left: 902px;
+            background-color: rgb(25, 25, 253);
+            font-weight: bold;
+            color: white;
+            margin-top: 50px;
+            cursor: pointer;
+        }   
+        button:hover{
+            background-color: blue;
+        } 
+        h3{
+            color: rgb(85, 85, 85);
+            margin-left: 100px;
+            margin-top: 50px;
+        }
+        #bottom_div{
+            margin-left: 100px;
+        }
+        #bottom_div>p>a{
+            text-decoration: none;
+            margin-right: 20px;
+            color: grey;
+        }
+        #bottom_div>p>a:hover{color: navy;}        
+
+        #logout_p,#user_name{cursor: pointer;}
+        #chkbox2,#chkbox{cursor: pointer;}
+        body::-webkit-scrollbar{display: none;}
+
+    </style>
+</head>
+<body>
+    <div id="top_logo">
+        <a href="index.html">
+            <img src="https://cdn.shopify.com/s/files/1/0153/8863/files/Headphone-Zone-Animated-Header_400x_b56ee274-b480-4d0f-91ae-4a16d148a93f.gif?v=1580537719" alt="">
+        </a>
+    </div>
+
+        <div id="payment_navigation">
+            <a href="cart.html">Cart    ></a>
+            <a href="information.html" style="color: rgb(46, 45, 45);">Information    ></a>
+            <a href="buyHome.html">Payment</a>
+        </div>
+
+        <div id="contact_info">
+            <p>Contact information</p>
+            <div id="user_datails">
+                <img src="https://th.bing.com/th/id/R.7b528d6309ee84dc0d8fbffef7cc9347?rik=8wk4MSW3GZq%2f7g&riu=http%3a%2f%2fwww.psdgraphics.com%2ffile%2fuser-icon.jpg&ehk=4QSu%2bJSvX%2bN2ZID%2fIjxhYSQSPXnkuSk%2bZ0gxqdIQWSU%3d&risl=&pid=ImgRaw&r=0" alt="">
+                <div>
+                    <p style="color: grey;" id="user_name">Already have an account? Log in</p>       
+                    <p style="color: rgb(73, 72, 72);" id="logout_p"></p>
+
+                </div>
+                </div>
+                <br>
+                <input type="checkbox" id="chkbox">
+                <label for="chkbox" style="color: grey;">Email and WhatsApp me with news and offers</label><br>
+        </div>
+
+
+        <div id="shipping_address">
+            <p>Shipping Address</p>            
+            <input type="text" placeholder="Enter Country/Region" >
+
+                <div>
+                    <input type="text" style="width: 560px;" placeholder="Enter First name">
+                    <input type="text" style="width: 435px;" placeholder="Enter Last name">
+                </div>
+                <input type="text" placeholder="Enter Address">
+
+                <div>
+                    <input type="text" style="width: 330px;" placeholder="Enter City">
+                    <input type="text" style="width: 330px;" placeholder="Enter State">
+                    <input type="number" style="width: 330px;" placeholder="Enter PIN">                    
+                </div>
+                <input type="number" placeholder="Enter Phone number">  
+                   
+
+        </div>
+
+        <br>
+        <input type="checkbox" id="chkbox2" style="margin-left: 100px;">
+        <label for="chkbox2" style="color: grey;">Save this information for next time</label><br>
+       
+        <a href="buyHome.html"><button>Continue to payment method</button></a>
+        
+        <br>
+        <br>
+        <h3>Safety first! Pay online to ensure contactless delivery</h3>
+        <hr>
+        
+        <div id="bottom_div" style="display: flex;">
+            <p><a href="https://www.headphonezone.in/pages/returns">Refund poilcy</a></p>
+            <p><a href="https://www.headphonezone.in/pages/privacy-policy">Privacy policy</a></p>
+            <p><a href="https://www.headphonezone.in/pages/terms-conditions">Terms of service</a></p>
+        </div>
+
+</body>
+</html>
+
+
+
+
+<!-- https://cdn.shopify.com/s/files/1/0153/8863/files/Headphone-Zone-Animated-Header_400x_b56ee274-b480-4d0f-91ae-4a16d148a93f.gif?v=1580537719 -->
+
+
+
+
+
+<script>
+
+var arr=JSON.parse(localStorage.getItem('userCredentials'))||[]
+console.log(arr[arr.length-1])
+
+var user_name=document.getElementById('user_name')
+if(arr.length>0)
+user_name.innerText=arr[arr.length-1].first_name+' '+arr[arr.length-1].last_name+' '+'('+arr[arr.length-1].email+')'
+
+var logout_p=document.getElementById('logout_p')
+if(arr.length)logout_p.innerText='Log out'
+else logout_p.innerText=''
+logout_p.addEventListener('click',function(event){
+    localStorage.removeItem('userCredentials')
+    window.location.reload()
+
+})
+if(!arr.length)
+{
+    user_name.addEventListener('click',function(event){
+        window.location.href='signup.html'
+    })
+}
+</script>

@@ -1,0 +1,74 @@
+.container{
+    width: 50%;
+    margin: auto;
+    height: 500px;
+    margin-top: -15rem;
+    margin-bottom: -45px;
+
+}
+/* color edit 1 line*/
+.container>form{background-color: rgb(46, 45, 45);} 
+#input{
+    height: 200px;
+    text-align: center;
+    width: 100%;
+    font-size: 50px;
+    /* color edit 3 line*/
+    border-radius: 10px;
+    background-color: black;
+    color: whitesmoke;
+}
+#prem {
+    width: 46.5%;
+    margin: auto;
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    justify-content:space-between;
+    margin-bottom: 3%;
+    background-color: rgb(249, 250, 239);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 10px;
+    border: 0px;
+    padding: 2%;
+    /* color edit 2 line*/
+    background-color: rgb(46, 45, 45);
+    color: whitesmoke;
+    
+}
+h3{
+    color: red;
+}
+#rupee{
+    
+  
+    position: relative;
+    
+    font-size: 40px;
+   
+
+}
+
+body {
+    background-color: rgb(0, 0, 0);
+    /* background-image: url("https://res.cloudinary.com/onlinesales/image/upload/f_auto,q_auto/website/Headphone-Zone_About-us_Visiting-card_fb6f3cc7-83de-4861-968a-f63e78340ae9.jpg"); */
+    background: linear-gradient(rgba(1, 0, 0, 0.86), rgba(148, 144, 144, 0.5)), url("https://sokratidisplay-res.cloudinary.com/image/upload/q_85/headphonezone_banner_ptjk48.png");
+    background-size: cover;
+    
+
+}
+.container form .submit-btn{
+    width: 100%;
+    
+    padding:12px;
+    font-size: 17px;
+    background: #0751da;
+    color:#fff;
+    margin-top: 5px;
+    cursor: pointer;
+    border-radius: 20px;
+  }
+
+
+
+/* By Shashank Pandey fw18_0105 */

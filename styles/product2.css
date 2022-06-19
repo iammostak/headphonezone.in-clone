@@ -1,0 +1,664 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Roboto, sans-serif;
+    
+}
+body::-webkit-scrollbar{
+    display: none;
+}
+button{
+    cursor: pointer;
+}
+img{
+cursor: pointer;
+}
+
+#alts {
+    width: 100%;
+    position: sticky;
+    bottom: 80%;
+    text-align: center;
+    z-index: 2;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    padding: 1.2% 3%;
+    font-size: 18px;
+    font-weight: 800;
+    color: white;
+    background-color: blue;
+    display: none;
+
+ }
+ 
+#top_bar{
+    width: 100%;
+    margin:  auto ;
+    background-color: #ffff;
+    padding: 15px;
+    border-radius: 5px;
+    display: grid;
+    grid-template-columns:1fr 1fr;
+    gap: 40px;
+}
+#images1{
+    height:fit-content;
+    width: 100%;
+  display: flex;
+   
+}
+#images1::-webkit-scrollbar{
+    scrollbar-arrow-color: aqua;
+}
+#images1>img{
+    width: 80%;
+    margin:0px auto;
+   
+}
+.prices{
+    color: blue;
+    font-size: 22px;
+    font-weight: bold;
+    
+}
+#details1{
+    margin-right: 40px;
+    line-height: 30px;
+    font-family: Roboto, sans-serif;
+
+   
+}
+#details1>h1{
+   font-family: "Zurich Extended", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    text-transform: uppercase;
+   color: rgb(68, 68, 68);
+}
+#details1>h3{
+    font-family: Roboto, sans-serif;
+    font-weight: 700;
+   
+}
+.slogan{
+    font-weight: 600;
+    letter-spacing: 0.1em;
+    font-size: 14px;
+    text-align: left !important;
+    display: block;
+    font-family: Roboto, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    color: rgb(68, 68, 68);
+    margin-bottom: 30px;
+
+}
+.checked{
+    color: orange;
+    margin-bottom: 20px;
+}
+.fa-star:before {
+    content: "\f005";
+}
+.type{
+    margin: 20px auto 20px auto;
+}
+.pricediv{
+    display: flex;
+    
+}
+.pricediv>p{
+    margin-right: 30px;
+}
+.desimg{
+    display: flex;
+    margin-bottom: 10px;
+}
+.desimg img{
+    width: 100px;
+    margin-left: 20px;
+    border: 1px solid rgb(199, 198, 198);
+}
+.desimg img:hover{
+    border: 1mm solid rgb(41, 41, 44);
+}
+#delivery{
+    display: flex;
+    width: 80%;
+    padding: 10px;
+    gap:20px;
+    border: 1px solid rgb(255, 255, 255);
+    border-bottom-color: rgba(190, 190, 190, 0.425);
+    
+
+}
+
+#delivery>td{
+    font-size: 14px;
+    width:20%; 
+    height:fit-content;
+    font-family: Roboto, sans-serif;
+}
+#delivery>td>input{
+    border-radius: 20px;
+    padding: 5px;
+    width: 100%;
+}
+#delivery td:nth-child(1){
+    font-weight: bold;
+    /* border: 1mm solid red; */
+}
+#delivery:nth-last-child(1){
+    display: flex;
+    justify-content: space-around;
+}
+#Add_cart{
+     width: 80%;
+    border-radius: 20px;
+    padding: 15px;
+    background-color: blue;
+    border: none;
+    color: white;
+    font-weight: bold;
+}
+hr{
+    width: 80%;
+}
+#snapshot_div{
+    width: 80%;
+    color: rgb(68, 68, 68);
+    font-weight: bold;
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    grid-auto-rows: auto;
+    gap: 20px;
+    margin: auto;
+    margin-right: 40px;
+    margin-top: 40px;
+    font-size: 12px;
+
+}
+
+
+.snapshot{
+    display: block;
+
+    margin-top: 20px;
+}
+
+
+/* <---------PAIRS WELL WITH THESE ACCESSORISES Start---------> */
+
+#access{
+    width: 85%;
+    margin: auto;
+    margin-top: 150px;
+}
+
+.access1{
+    justify-content: space-evenly;
+
+    display: flex;
+    margin-left: 50px;
+}
+.access1>div>div>img{
+    width: 150px;
+    height: fit-content;
+    padding: 20px;
+}
+.access1>div>div{
+    display: flex;
+}
+.access1>div>div>img:hover{
+  background: url("https://cdn.shopify.com/s/files/1/0153/8863/products/Headphone-Zone-Ant-audio-carry-case-Blue-1160-1160-1_300x.jpg?v=1599483578");
+}
+.access1>div>div>div{
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+.imagehov1{
+    width: 150px;
+    height: 150px;
+    padding-right: 20px;
+}
+.imagehov1+div{
+    padding-left: 20px;
+}
+.access1>div>div>div>h4{
+    font-family: "Zurich Extended", sans-serif;
+    font-weight: 600;
+    font-size: 12px;
+    font-style: normal;
+    text-transform: uppercase;
+   color: rgb(68, 68, 68);
+   margin-top: 20px;
+   /* background-color: red; */
+}
+.imagehov1>div{
+    /* border: 1mm solid red; */
+    width: 150px;
+    height: 150px;
+    background-size: cover;
+    padding: 10px;
+    background-image: url("https://cdn.shopify.com/s/files/1/0153/8863/products/Headphone-Zone-Ant-audio-carry-case-Blue-1160-1160-1_300x.jpg?v=1599483578") ;
+   
+}
+.imagehov1>div:hover{
+    transform-style: preserve-3d;
+    transition-delay: 200ms;
+    background-image: url("https://cdn.shopify.com/s/files/1/0153/8863/products/Headphone-Zone-Ant-audio-carry-case-Blue-1160-1160-2_300x.jpg?v=1599483587") ;
+    width: 150px;
+    height: 150px;
+    background-size: contain;
+    
+}
+.imagehov2>div:hover{
+    transform-style: flat;
+    transition-delay: 200ms;
+    width: 150px;
+    height: 150px;
+    background-size: contain;
+  background-image: url('https://cdn.shopify.com/s/files/1/0153/8863/products/Headphone-Zone-Final-Audio-Earpiece-S-02_300x.jpg?v=1633588017') 
+}
+.imagehov2>div{
+  
+    width: 150px;
+    height: 150px;
+    background-size: cover;
+    padding: 10px;
+    background-image: url("https://cdn.shopify.com/s/files/1/0153/8863/products/Headphone-Zone-Final-Audio-Earpiece-S-01_300x.jpg?v=1633588017") ;
+   
+}
+.imagehov3>div:hover{
+    transform-style: preserve-3d;
+    transition-delay: 200ms;
+
+    width: 150px;
+    height: 150px;
+    background-size: contain;
+  background-image: url('https://cdn.shopify.com/s/files/1/0153/8863/products/headphone-zone-silicone-earhooks-ear-hanger-black-headphone-zone-22107748999_1000x.jpg?v=1580136305') 
+}
+.imagehov3>div{
+    width: 150px;
+    height: 150px;
+    background-size: cover;
+    padding: 10px;
+    background-image: url("https://cdn.shopify.com/s/files/1/0153/8863/products/headphone-zone-silicone-earhooks-ear-hanger-headphone-zone-22107753351_1000x.jpg?v=1580136305") ;
+   
+}
+.access1>div>div>div>h4+p{
+font-size: 12px;
+margin-top: 10px;
+
+
+}
+.access1>div>div>div>span{
+    display: flex;
+    gap: 10px;
+
+}
+
+.access1>div>div>div>span>p:nth-child(1){
+ 
+   color:blue;
+    font-weight: 600;
+}
+.access1>div>div>div>span>p:nth-child(2){
+text-decoration: line-through;
+font-weight: 200;
+color: rgb(179, 179, 179);
+}
+
+/* <---------PAIRS WELL WITH THESE ACCESSORISEs END---------> */
+
+
+
+@media all and (min-width:370px) and (max-width:510px) {
+   #top_bar{
+    display: block;
+   }
+   #delivery{
+    display: flex;
+    width: 80%;
+    padding: 10px;
+    gap:30px;
+    border: 1px solid rgb(255, 255, 255);
+    border-bottom-color: rgba(190, 190, 190, 0.425);
+    justify-content: space-between;
+
+}
+}
+@media all and (min-width:520px) and (max-width:850pxpx) {
+    #top_bar{
+     display: block;
+    }
+    #delivery{
+     display: flex;
+     width: 80%;
+     padding: 10px;
+     gap:30px;
+     border: 1px solid rgb(255, 255, 255);
+     border-bottom-color: rgba(190, 190, 190, 0.425);
+     justify-content: space-between;
+ 
+ }
+ }
+
+/* <--------description css------> */
+
+
+#description{
+    width: 80%;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 40px;
+}
+#desc1{
+    display: flex;
+    gap: 40px;
+    margin-bottom: 10px;
+
+
+}
+.btn {
+    border: none;
+    outline: none;
+    padding: 10px 16px;
+    background-color: #f1f1f1;
+    cursor: pointer;
+  }
+  
+  /* Style the active class (and buttons on mouse-over) */
+  .active, .btn:hover {
+    background-color: #666;
+    color: white;
+  }
+  .part2{
+    width: 100%;
+    margin-top: 60px;
+    height: fit-content;
+    border: 1mm solid teal;
+  }
+  #makeagrid{
+    display: grid;
+    margin: auto;
+    width: 80%;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    grid-auto-rows: auto;
+    grid-template-areas: 
+    "img1 img2"
+    "img3 img3"
+    "img3 img3"
+    "img4 img5"
+    "img6 img7"
+    "img8 img9"
+    "img10 img11"
+    "img12 img13"
+    "img14 img14"
+    "img15 img16"
+    "img17 img18"
+    "img19 img19"
+    "img20 img21"
+    "img22 img22"
+    "img23 img23"
+    "img24 img25"
+    "img26 img26"
+    "img27 img28"
+    "img29 img30"
+    "img31 img32"
+    "img33 img34"
+    ". ."; 
+}
+.img1 { grid-area: img1; }
+.img2 { grid-area: img2; }
+.img3 { grid-area: img3; }
+.img4 { grid-area: img4; }
+.img5 { grid-area: img5; }
+.img6 { grid-area: img6; }
+.img7 { grid-area: img7; }
+.img8 { grid-area: img8; }
+.img9 { grid-area: img9; }
+.img10 { grid-area: img10; }
+.img11 { grid-area: img11; }
+.img12 { grid-area: img12; }
+.img13 { grid-area: img13; }
+.img14 { grid-area: img14; }
+.img15 { grid-area: img15; }
+.img16 { grid-area: img16; }
+.img17 { grid-area: img17; }
+.img18 { grid-area: img18; }
+.img19 { grid-area: img19; }
+.img20 { grid-area: img20; }
+.img21 { grid-area: img21; }
+.img22 { grid-area: img22; }
+.img23 { grid-area: img23; }
+.img24 { grid-area: img24; }
+.img25 { grid-area: img25; }
+.img26 { grid-area: img26; }
+.img27 { grid-area: img27; }
+.img28 { grid-area: img28; }
+.img29 { grid-area: img29; }
+.img30 { grid-area: img30; }
+.img31 { grid-area: img31; }
+.img32 { grid-area: img32; }
+.img33 { grid-area: img33; }
+
+
+#makeagrid>div>img{
+    width: 100%;
+    height: fit-content;
+}
+#makeagrid>div{
+    margin-top: 50px;
+}
+.lad{
+    width: 100%;
+    height: fit-content;
+   
+}
+.img201{
+    display: flex;
+}
+ .warranty{
+    width: 80%;
+    align-items: center;
+    margin:70px  auto;
+    display: flex;
+   
+ }
+ .warranty>span{
+    line-height: 30px;
+    word-spacing: 0.1em;
+ }
+ .warranty>svg{
+    width: 50%;
+    padding: 20px;
+
+ }
+
+ .award{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    gap: 20px;
+ }
+
+ .award>div>img{
+    background-color: #e6e6e6;
+    
+ }
+ .award>div>p{
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.award>div>h4{
+    margin-left: 10px;
+}
+.media-reviews-new-4{
+    width: 80%;
+    margin: auto;
+    font-size: 14px;
+    margin-top: 50px;
+    display: flex;
+    text-align: center;
+    line-height: 22px;
+    gap: 30px;
+}
+.media-reviews-new-4>div>img{
+width: 80%;
+
+}
+#videosdiv{
+    width: 80%;
+    gap: 40px;
+    display: flex;
+    margin: auto;
+    height: auto;
+    /* overflow-x: scroll;
+    overflow-y: hidden;
+    white-space: nowrap; */
+}
+#videosdiv>div{
+    width: 300px;
+    display: inline-block;
+
+}
+.media-reviews-new-4>div{
+    padding: 10px;
+    width: 100%;
+}
+.youtubereview{
+    width: 80%;
+    margin:30px auto;
+    text-align: center;
+}
+.youtubereview>p{
+    font-weight: 600;
+    color: #666;
+}
+.youtubereview>h1{
+    font-size: 40px;
+    color: rgb(60, 60, 60);
+    text-transform: uppercase;
+}
+
+
+#reviewid{
+    width: 205px;
+   line-height: 1.7em;
+   color: rgb(66, 66, 66);
+   cursor: pointer;
+   padding: 1%;
+}
+#reviewid>img{
+    width: 80%;
+}
+#reviewid>img:hover{
+    width: 100%;
+}
+#reviewid>p{
+    height: 25px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+#reviewid>h2{
+
+    height: 31px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+#youtubereviews1,#youtubereviews2,#youtubereviews102{ 
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    width: 80%;
+    margin: auto;
+    display: flex;
+    height: 400px;
+    overflow-x: scroll;
+}
+#youtubereviews1::-webkit-scrollbar ,#youtubereviews2::-webkit-scrollbar,#youtubereviews102::-webkit-scrollbar{
+    display: none;
+ }
+.reviewclass{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    display:flex;
+    gap:10px; 
+    text-align:center;
+    line-height: 30px;
+}
+
+.iamsym>ul{
+
+    width:fit-content;
+    display: flex;
+    align-items: center;
+    margin: 10px auto;
+    gap: 20px;
+}
+#smartcontainer_s1 {
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    height: 640px;
+    color: rgb(74, 74, 74);
+    margin: 40px 0 70px 0;
+ 
+ }
+ #smartcard_s>p {
+    line-height: 24px;
+    font-size: 14px;
+    margin: 0 0 17px 0;
+ }
+ 
+#smartcard_s>p:first-of-type {
+    font-weight: 800;
+    letter-spacing: 1px;
+ }
+ 
+ #smartcard_s>h1 {
+    line-height: 35px;
+    font-size: 33px;
+    font-weight: 800;
+    font-family: 'Zurich Extended', sans-serif;
+    color: rgb(74, 74, 74);
+    letter-spacing: 1px;
+    margin: 0 0 27px 0;
+ }
+ 
+ #smartcontainer_s1>div:first-child {
+    position: relative;
+    width: 35%;
+    background-color: rgb(252, 228, 226);
+ }
+ 
+ #smartindia {
+    position: absolute;
+    width: 107%;
+    left: 23%;
+    top: 12%;
+    border-radius: 10px;
+ }
+ 
+ #smartcontainer_s1>div:last-child {
+    box-sizing: border-box;
+    width: 49%;
+    display: flex;
+    align-items: center;
+    padding: 0 7% 0 0;
+ }
+ 
+ #smartcard_s>button {
+    border: none;
+    padding: 15px;
+    border-radius: 20px;
+    margin: 20px auto;
+    background-color: rgb(146, 0, 255);
+    color: white;
+ }
+ 

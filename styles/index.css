@@ -1,0 +1,845 @@
+* {
+   margin: 0;
+   padding: 0;
+   font-family: Roboto, sans-serif;
+}
+
+body::-webkit-scrollbar {
+   display: none;
+}
+
+#slideshow {
+   position: relative;
+   height: 640px;
+   line-height: 1;
+   font-weight: bold;
+   font-family: "Zurich Extended", sans-serif;
+}
+
+#slideshow>div {
+   width: 45%;
+}
+
+#heads {
+   font-size: 55px;
+   font-weight: 800;
+}
+
+#ps {
+   margin: 25px 0;
+}
+
+#slideshow>img {
+   width: 100%;
+}
+
+#slideshow>div {
+   position: absolute;
+   top: 37%;
+   left: 7%;
+   color: white;
+}
+
+button {
+   padding: 17px 30px;
+   font-size: 14px;
+   font-weight: bold;
+   border-radius: 30px;
+   border: none;
+   cursor: pointer;
+   letter-spacing: 0.7px;
+   background-color: white;
+   color: rgb(74, 74, 74);
+}
+
+button:hover {
+   background-color: rgb(230, 230, 230);
+}
+
+/* products icons styling */
+
+#boxs1 {
+   text-align: center;
+   width: 85%;
+   margin: 10px auto 60px auto;
+}
+
+#boxs1>h1 {
+   font-family: "Zurich Extended", sans-serif;
+   font-size: 28px;
+   font-weight: 800;
+   letter-spacing: 1px;
+   line-height: 30px;
+   margin: 70px 0 40px 0;
+   color: rgb(74, 74, 74);
+}
+
+#boxs1>p {
+   line-height: 24px;
+   font-size: 14px;
+   font-weight: 400;
+   color: rgb(68, 68, 68);
+}
+
+#product_icons {
+   display: grid;
+   grid-template-columns: repeat(8, 1fr);
+   grid-template-rows: repeat(2, auto);
+   gap: 20px;
+   margin: 10px 0;
+}
+
+.icon {
+   text-align: center;
+}
+
+.icon:hover {
+   cursor: pointer;
+}
+
+.icon>p {
+   font-size: 10px;
+   font-weight: 800;
+   color: gray;
+}
+
+.icon>img {
+   width: 70%;
+   border-radius: 20%;
+}
+
+.icon>img:hover {
+   filter: sepia(100%);
+}
+
+#videoz>iframe {
+   width: 100%;
+   height: 700px;
+}
+
+#toppingz {
+   width: 90%;
+   position: relative;
+   margin: 70px auto;
+   text-align: center;
+   color: rgb(74, 74, 74);
+}
+
+#toppingz>button {
+   background-color: blue;
+   color: white;
+}
+
+#toppingz>button:hover {
+   background-color: rgb(0, 0, 227);
+}
+
+#headz {
+   font-size: 30px;
+   font-weight: 800;
+   margin-bottom: 20px;
+   font-family: "Zurich Extended", sans-serif;
+}
+
+#headingz button {
+   font-size: 14px;
+   font-weight: bold;
+   padding: 0.5%;
+   margin: 0.5%;
+   background-color: transparent;
+   border: none;
+   border-bottom: 2px solid;
+   color: gray;
+   cursor: pointer;
+}
+
+#contentz {
+   display: flex;
+   height: 400px;
+   overflow-x: scroll;
+   margin: 30px 0 20px 0;
+}
+
+#contentz::-webkit-scrollbar {
+   display: none;
+}
+
+#leftDivz,
+#rightDivz {
+   position: absolute;
+   border: 1.7px solid;
+   top: 47%;
+   padding: 14px 18px;
+   border-radius: 50%;
+   cursor: pointer;
+   color: white;
+   font-weight: 800;
+   background-color: blue;
+   border: 2px solid whitesmoke;
+}
+
+#leftDivz {
+   left: -3%;
+}
+
+#rightDivz {
+   right: -3%;
+}
+
+.cardz {
+   width: 205px;
+   line-height: 1.7em;
+   color: rgb(66, 66, 66);
+   cursor: pointer;
+   padding: 1%;
+}
+
+.cardz>img {
+   width: 205px;
+}
+
+.cardz>p:first-of-type {
+   font-weight: bold;
+   letter-spacing: 1px;
+   text-transform: uppercase;
+}
+
+.cardz>p:last-of-type {
+   font-size: 12px;
+   font-weight: bold;
+}
+
+.pricez>span:first-of-type {
+   color: blue;
+   font-weight: bold;
+   margin-right: 10px;
+}
+
+.pricez>span:last-of-type {
+   text-decoration: line-through;
+   color: gray;
+}
+
+.ratingz {
+   font-size: 11px;
+   color: black;
+}
+
+.ratingz>i {
+   color: orange;
+}
+
+.ratingz>span {
+   margin-left: 10px;
+}
+
+#freshz {
+   text-align: center;
+   font-weight: bold;
+   color: rgb(74, 74, 74);
+   margin: 90px auto;
+}
+
+#freshz>p:first-of-type {
+   font-size: 12px;
+   margin: 20px auto;
+   letter-spacing: 1px;
+   font-weight: 800;
+}
+
+#freshz>p:last-of-type {
+   font-size: 30px;
+   font-weight: 800;
+   font-family: 'Zurich Extended', sans-serif;
+}
+
+#boxzdiv {
+   width: 94%;
+   margin: 40px auto;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   gap: 40px;
+}
+
+.boxz {
+   height: 450px;
+   width: 100%;
+   border-radius: 15px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   color: white;
+   filter: brightness(90%);
+   cursor: pointer;
+   background-position: center;
+}
+
+.boxz p:first-of-type {
+   font-size: 12px;
+   margin-bottom: 25px;
+   letter-spacing: 2px;
+}
+
+.boxz p {
+   font-weight: 800;
+   font-size: 30px;
+   letter-spacing: 1px;
+}
+
+.boxz:first-of-type {
+   background-image: url('https://cdn.shopify.com/s/files/1/0153/8863/files/64Audio-Duo_NewArrivalsBanner_fdc2eaeb-aa36-4b6a-9e26-d4982f226286_700x.jpg?v=1654680319');
+   background-size: cover;
+}
+
+.boxz:nth-of-type(2) {
+   background-image: url('https://cdn.shopify.com/s/files/1/0153/8863/files/Meze-ADVAR_NewArrivalsBanner_700x.jpg?v=1651755551');
+   background-size: cover;
+}
+
+.boxz:last-of-type {
+   background-image: url('https://cdn.shopify.com/s/files/1/0153/8863/files/Fiio_-_K5ProEss_NewArrivalsBanner_6bfbe703-7bbd-4711-8f9f-add743f9ba7a_700x.jpg?v=1651755230');
+   background-size: cover;
+}
+
+.boxz:hover {
+   background-size: 400px;
+}
+
+#confusedz {
+   background-image: url('https://cdn.shopify.com/s/files/1/0153/8863/files/Headphone-Finder-New_1400x.jpg?v=1655447696');
+   height: 700px;
+   margin-bottom: 80px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   line-height: 1.7;
+}
+
+#confusedz>div {
+   width: 37%;
+   height: 47%;
+   box-sizing: border-box;
+   padding: 4% 5%;
+   text-align: center;
+   background-color: white;
+   border-radius: 30px;
+   font-size: 14px;
+   color: rgb(74, 74, 74);
+}
+
+#confusedz>div>p:first-of-type {
+   font-size: 33px;
+   font-weight: 800;
+   letter-spacing: 1px;
+   line-height: 1;
+}
+
+#confusedz>div>p:last-of-type {
+   margin: 30px auto;
+}
+
+#confusedz>div>button {
+   color: white;
+   background-color: blue;
+}
+
+#confusedz>div>button:hover {
+   background-color: rgb(0, 0, 227);
+}
+
+#finderz {
+   height: 640px;
+   margin-bottom: 70px;
+   display: flex;
+   position: relative;
+}
+
+#finderz>div:first-child {
+   width: 36%;
+   background-color: rgb(230, 230, 230);
+}
+
+#innerz {
+   position: absolute;
+   top: 13%;
+   left: 7%;
+   width: 84%;
+   display: flex;
+   gap: 70px;
+}
+
+#innerz>img {
+   width: 44%;
+   border-radius: 10px;
+}
+
+#welcomez {
+   margin: auto;
+}
+
+#welcomez>p {
+   font-size: 14px;
+   line-height: 1.7;
+   margin: 0 0 17px 0;
+}
+
+#welcomez>p:first-of-type {
+   font-size: 33px;
+   font-weight: 800;
+   font-family: 'Zurich Extended', sans-serif;
+   color: rgb(74, 74, 74);
+   line-height: 1;
+   letter-spacing: 1px;
+   margin: 0 0 27px 0;
+}
+
+#welcomez>button {
+   margin: 20px auto;
+   color: white;
+   background-color: blue;
+}
+
+#welcomez>button:hover {
+   background-color: rgb(0, 0, 227);
+}
+
+#brandz {
+   height: 640px;
+   background-color: rgb(230, 230, 230);
+   text-align: center;
+   color: rgb(74, 74, 74);
+   padding: 60px;
+}
+
+#brandz>div>p:first-of-type {
+   font-size: 12px;
+   margin: 20px auto;
+   letter-spacing: 1px;
+   font-weight: 800;
+}
+
+#brandz>div>p:last-of-type {
+   font-size: 30px;
+   font-weight: 800;
+   font-family: 'Zurich Extended', sans-serif;
+}
+
+#logoz {
+   height: 57%;
+   display: grid;
+   grid-template-columns: repeat(8, 1fr);
+   gap: 20px;
+   margin: 44px 0;
+}
+
+.logozCard {
+   cursor: pointer;
+   width: 100%;
+}
+
+.logozCard>img {
+   width: 100%;
+}
+
+#slideShowz {
+   height: 600px;
+   margin: 0 0 70px 0;
+   position: relative;
+}
+
+#slideShowz>div {
+   position: absolute;
+   height: 120px;
+   width: 240px;
+   background-color: white;
+   border-radius: 10px;
+   z-index: 0;
+   bottom: 7%;
+   left: 3%;
+   font-weight: bold;
+   color: rgb(74, 74, 74)
+}
+
+#slideShowz>div>div {
+   height: 50%;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+#slideShowz>div>div:first-child {
+   border-bottom: 1px solid lightgray;
+}
+
+#slideShowz>div>div:last-child>div {
+   width: 30%;
+   height: 100%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   cursor: pointer;
+}
+
+#slideShowz>div>div:last-child>div:nth-child(2) {
+   width: 47%;
+   border-left: 1px solid lightgray;
+   border-right: 1px solid lightgray;
+}
+
+#slideShowz>img {
+   width: 100%;
+}
+
+#container_s1 {
+   box-sizing: border-box;
+   display: flex;
+   justify-content: space-between;
+   height: 640px;
+   color: rgb(74, 74, 74);
+   margin: 0 0 70px 0;
+
+}
+
+#card_s>p {
+   line-height: 24px;
+   font-size: 14px;
+   margin: 0 0 17px 0;
+}
+
+#card_s>p:first-of-type {
+   font-weight: 800;
+   letter-spacing: 1px;
+}
+
+#card_s>h1 {
+   line-height: 35px;
+   font-size: 33px;
+   font-weight: 800;
+   font-family: 'Zurich Extended', sans-serif;
+   color: rgb(74, 74, 74);
+   letter-spacing: 1px;
+   margin: 0 0 27px 0;
+}
+
+#container_s1>div:first-child {
+   position: relative;
+   width: 35%;
+   background-color: rgb(252, 228, 226);
+}
+
+#india {
+   position: absolute;
+   width: 107%;
+   left: 23%;
+   top: 12%;
+   border-radius: 10px;
+}
+
+#container_s1>div:last-child {
+   box-sizing: border-box;
+   width: 49%;
+   display: flex;
+   align-items: center;
+   padding: 0 7% 0 0;
+}
+
+#card_s>button {
+   margin: 20px auto;
+   background-color: rgb(146, 0, 255);
+   color: white;
+}
+
+#card_s>button:hover {
+   background-color: blueviolet;
+}
+
+#poas {
+   margin: 0 0 70px 0;
+}
+
+#pairz {
+   text-align: center;
+   background-color: rgb(230, 230, 230);
+   font-size: 26px;
+   font-family: 'Zurich Extended', sans-serif;
+   font-weight: 800;
+   letter-spacing: 1px;
+   color: rgb(74, 74, 74);
+   padding: 60px 50px;
+}
+
+#pairz i {
+   font-size: 100px;
+   color: lightgray;
+}
+
+#pairz>p:first-of-type {
+   margin-top: -50px;
+}
+
+#partnerz {
+   display: flex;
+   margin: 60px 30px 30px 30px;
+   align-items: center;
+   justify-content: space-between;
+}
+
+#partnerz>img {
+   width: 10%;
+   cursor: pointer;
+   filter: brightness(200%);
+}
+
+#ourz {
+   text-align: center;
+   background-color: rgb(214, 207, 249);
+   font-weight: bold;
+   letter-spacing: 1px;
+   color: rgb(74, 74, 74);
+   padding: 60px 0 50px 0;
+}
+
+#ourz>p {
+   font-size: 33px;
+   font-family: 'Zurich Extended', sans-serif;
+   font-weight: 800;
+   margin: 10px;
+}
+
+#ourz>div {
+   display: flex;
+   margin: 30px 0 20px 0;
+}
+
+#ourz>div>div {
+   width: 20%;
+   text-align: center;
+   cursor: pointer;
+}
+
+#ourz>div>div>p:first-of-type {
+   font-size: 22px;
+   font-weight: 800;
+   margin: 10px;
+}
+
+#ourz>div>div>p:last-of-type {
+   font-size: 12px;
+   margin: 20px;
+}
+
+#audioz {
+   background-color: rgb(68, 68, 68);
+   padding: 70px 100px;
+   display: flex;
+   gap: 140px;
+   align-items: center;
+}
+
+#joinz>p {
+   font-size: 14px;
+   line-height: 1.7;
+   margin: 0 0 17px 0;
+   color: white;
+}
+
+#joinz>p:first-of-type {
+   font-size: 33px;
+   font-weight: 800;
+   font-family: 'Zurich Extended', sans-serif;
+   line-height: 1;
+   letter-spacing: 1px;
+   margin: 0 0 27px 0;
+}
+
+#joinz>button {
+   margin: 20px auto;
+   background-color: rgb(254, 206, 0);
+}
+
+#joinz>button:hover {
+   background-color: rgb(234, 191, 1);
+}
+
+#subz {
+   height: 440px;
+   background-image: url('https://cdn.shopify.com/s/files/1/0153/8863/files/Headphone-Zone-Newsletter_2000x.jpg?v=1643375292');
+   background-position: center;
+   background-size: cover;
+   display: flex;
+   align-items: center;
+   color: rgb(74, 74, 74);
+}
+
+#subz>div {
+   width: 30%;
+   background-color: white;
+   margin-left: 100px;
+   padding: 40px;
+   border-radius: 20px;
+}
+
+#subz>div>p {
+   font-size: 14px;
+   margin: 0 0 30px 0;
+   line-height: 1.7;
+}
+
+#subz>div>p:first-of-type {
+   font-weight: bold;
+}
+
+#emailz {
+   width: 46%;
+   padding: 17px;
+   font-size: 14px;
+   border-radius: 30px;
+   letter-spacing: 0.7px;
+   color: rgb(74, 74, 74);
+   margin-right: 15px;
+   border: 1px solid lightgray;
+   outline: none;
+}
+
+#subz>div>button {
+   background-color: blue;
+   color: white;
+}
+
+#subz>div>button:hover {
+   background-color: rgb(0, 0, 227);
+}
+
+/* ------------------------------------------------- */
+
+#insta_connect>div:first-child {
+   text-align: center;
+   color: rgb(74, 74, 74);
+   letter-spacing: 1px;
+   margin: 100px 0 50px 0;
+}
+
+#insta_connect>div>p:first-of-type {
+   font-size: 30px;
+   font-weight: 800;
+   margin-bottom: 30px;
+   font-family: 'Zurich Extended', sans-serif;
+}
+
+#insta_connect>div>p:last-of-type {
+   font-size: 14px;
+}
+
+#container_s2 {
+   width: 95%;
+   margin: 40px auto 170px auto;
+   display: grid;
+   grid-template-columns: repeat(6, 1fr);
+   grid-template-rows: 190px 190px;
+   gap: 20px;
+   grid-template-areas: "b1 b2 b5 b5 b6 b7"
+      "b3 b4 b5 b5 b8 b9";
+}
+
+#container_s2>div {
+   position: relative;
+   cursor: pointer;
+}
+
+#container_s2>div>div {
+   position: absolute;
+   width: 100%;
+   height: 100%;
+   background: rgba(69, 69, 69, 0.499);
+   display: none;
+   top: 0;
+   box-sizing: border-box;
+   padding: 15px;
+   color: white;
+   font-size: 14px;
+   font-weight: bold;
+}
+
+#container_s2>div>div>p:first-of-type {
+   height: 90%;
+}
+
+#container_s2 img {
+   width: 100%;
+   height: 100%;
+   object-fit: cover;
+}
+
+#container_s2>div:nth-child(1) {
+   grid-area: b1;
+}
+
+#container_s2>div:nth-child(2) {
+   grid-area: b2;
+}
+
+#container_s2>div:nth-child(3) {
+   grid-area: b3;
+}
+
+#container_s2>div:nth-child(4) {
+   grid-area: b4;
+}
+
+#container_s2>div:nth-child(5) {
+   grid-area: b5;
+}
+
+#container_s2>div:nth-child(6) {
+   grid-area: b6;
+}
+
+#container_s2>div:nth-child(7) {
+   grid-area: b7;
+}
+
+#container_s2>div:nth-child(8) {
+   grid-area: b8;
+}
+
+#container_s2>div:nth-child(9) {
+   grid-area: b9;
+}
+
+/* -----------------alert---------------- */
+
+.alert {
+   width: 26%;
+   position: sticky;
+   bottom: 76%;
+   z-index: 2;
+   gap: 20px;
+   justify-content: center;
+   align-items: center;
+   padding: 1.2% 3%;
+   font-size: 18px;
+   font-weight: 800;
+   color: white;
+   display: none;
+   border-top-right-radius: 30px;
+   border-bottom-right-radius: 30px;
+}
+
+.alert>i {
+   font-size: 33px;
+   font-weight: bold;
+}
+
+.successz {
+   background-color: rgb(76, 187, 23);
+}
+
+.errorz {
+   background-color: orangered;
+}
+
+.warningz {
+   background-color: rgb(254, 206, 0);
+   color: rgb(74, 74, 74);
+}

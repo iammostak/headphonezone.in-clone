@@ -1,0 +1,289 @@
+* {
+   margin: 0;
+   padding: 0;
+   font-family: Roboto, sans-serif;
+}
+
+#footerz {
+   padding: 60px 40px 20px 40px;
+   color: rgb(74, 74, 74);
+   font-size: 14px;
+   background-color: rgb(249, 249, 249);
+}
+
+#detailz {
+   display: flex;
+   justify-content: space-between;
+   gap: 20px;
+}
+
+#detailz>div {
+   width: 20%;
+}
+
+#detailz>div:first-child {
+   width: 13%;
+}
+
+#detailz>div:nth-child(3) {
+   width: 17%;
+}
+
+#detailz>div:nth-child(4) {
+   width: 27%;
+}
+
+#detailz>div:nth-child(4)>p:last-of-type {
+   text-decoration: underline;
+}
+
+#detailz>div:nth-child(4)>p:first-of-type {
+   color: rgb(74, 74, 74);
+}
+
+#detailz h4 {
+   line-height: 4;
+   font-weight: 800;
+}
+
+#detailz p {
+   line-height: 2.2;
+   cursor: pointer;
+}
+
+#detailz p:hover {
+   color: gray;
+   text-decoration: underline;
+}
+
+#detailz>div:nth-last-child(2)>p:nth-last-child(2) {
+   text-decoration: none;
+}
+
+#followz {
+   display: flex;
+}
+
+#followz>div {
+   border: 1px solid lightgray;
+   height: 50px;
+   width: 50px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   font-size: 20px;
+   cursor: pointer;
+}
+
+#followz>div:hover {
+   border: 1px solid rgb(68, 68, 68);
+   background-color: rgb(68, 68, 68);
+   color: white;
+}
+
+#acceptz {
+   width: 63%;
+   display: flex;
+   margin: 27px auto;
+   align-items: center;
+   justify-content: space-between;
+   color: gray;
+}
+
+span {
+   cursor: pointer;
+}
+
+#acceptz>div>img {
+   width: 10%;
+   cursor: pointer;
+}
+
+#owendz {
+   text-align: center;
+   line-height: 1.7;
+   border-top: 1px solid lightgray;
+   padding: 20px;
+}
+
+#owendz span {
+   text-decoration: underline;
+}
+
+/* -----------------navbar by shakil ahmad----------------- */
+
+#navbars {
+   position: sticky;
+   z-index: 1;
+   top: 0;
+   font-size: 14px;
+   font-weight: bold;
+   color: rgb(74, 74, 74);
+   background-color: rgb(249, 249, 249);
+}
+
+#nav {
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+   position: relative;
+}
+
+#nav>div {
+   display: flex;
+   align-items: center;
+   gap: 30px;
+   cursor: pointer;
+   height: 70px;
+}
+
+#nav_c1 {
+   width: 15%;
+}
+
+#nav_c1>a>img {
+   width: 80%;
+}
+
+#nav_c3>div:last-child {
+   display: flex;
+   gap: 5px;
+}
+
+#added_items {
+   padding: 1px 5px;
+   color: white;
+   background-color: rgb(68, 68, 68);
+   border-radius: 50%;
+}
+
+.ref {
+   height: 100%;
+   display: flex;
+   align-items: center;
+}
+
+.dropdowns {
+   margin: auto;
+   position: absolute;
+   top: 100%;
+   left: 0;
+   right: 0;
+   background-color: white;
+   display: none;
+   padding: 40px 20px;
+   justify-content: center;
+   gap: 60px;
+}
+
+.sss {
+   width: 24%;
+}
+
+.dropdowns h4 {
+   line-height: 4;
+   font-weight: bold;
+}
+
+.dropdowns p {
+   line-height: 2.2;
+   cursor: pointer;
+   font-weight: normal;
+}
+
+.dropdowns p:hover {
+   color: gray;
+   text-decoration: underline;
+}
+
+.dropdowns a {
+   text-decoration: none;
+   color: rgb(74, 74, 74);
+}
+
+.dropdowns a:hover {
+   text-decoration: underline;
+   color: gray;
+}
+
+#nav_c3>div>a {
+   text-decoration: none;
+   color: rgb(74, 74, 74);
+}
+
+.infoimgs {
+   text-align: center;
+   width: 17%;
+   margin: auto;
+   margin-left: 30px;
+}
+
+#infoimgss {
+   margin-left: -60px;
+}
+
+.infoimgs>img {
+   width: 100%;
+   border-radius: 20px;
+   margin-bottom: 10px;
+}
+
+.infoimgs>h4,
+.infoimgs>p {
+   line-height: 1.7;
+}
+
+#searchs>div {
+   top: 0;
+   right: 0;
+   position: absolute;
+   height: 100vh;
+   width: 41vw;
+   background-color: white;
+   display: none;
+}
+
+#searchDivs {
+   border-bottom: 1px solid lightgray;
+   height: 70px;
+   display: flex;
+   align-items: center;
+   justify-content: space-evenly;
+   font-size: 20px;
+   font-weight: bold;
+}
+
+#searchBars {
+   width: 80%;
+   padding: 1%;
+   border-radius: 7px;
+   border: none;
+   outline: none;
+}
+
+#noResults {
+   margin: auto;
+   margin-top: 30vh;
+   text-align: center;
+}
+
+#noResults>p {
+   font-size: 18px;
+   margin-bottom: 20px;
+}
+
+#noResults>button {
+   padding: 17px 30px;
+   font-size: 14px;
+   font-weight: bold;
+   border-radius: 30px;
+   border: none;
+   cursor: pointer;
+   letter-spacing: 0.7px;
+   color: white;
+   background-color: blue;
+}
+
+#noResults>button:hover {
+   background-color: rgb(0, 0, 227);
+}
