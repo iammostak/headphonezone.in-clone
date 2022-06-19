@@ -118,7 +118,7 @@ body::-webkit-scrollbar {
 
 .largeproducts .divs {
     width: 45%;
-    height: 250px;
+    height: 190px;
     /* border: 1px solid green; */
     position: relative;
     border-radius: 15px;
@@ -145,7 +145,7 @@ body::-webkit-scrollbar {
 
 .divs .left {
     position: absolute;
-    top: 85px;
+    top: 50px;
     left: 20px;
     color: white;
     font-size: large;
@@ -154,7 +154,7 @@ body::-webkit-scrollbar {
 
 .divs .lefty{
     position: absolute;
-    bottom: 90px;
+    bottom: 70px;
     left: 20px;
     color: white;
     font-size:40px;
