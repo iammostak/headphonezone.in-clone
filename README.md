@@ -6,7 +6,7 @@ The project is a clone of [Headphone Zone](https://www.headphonezone.in/) which 
 
 # Welcome Here!
 Hello Readers,
-Site link:-https://benevolent-licorice-fa1eb6.netlify.app/.
+Site link:-https://clone-headphonezone.netlify.app/.
 We, a group of 6 members, have finished this project and have built a clone of a very popular online electronics' shopping ecom platform, Headphone Zone.com, where users can purchase quality headphones and can redefine the way they listen to music. 
 
 
